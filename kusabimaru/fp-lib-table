@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/../lib/keyswitches.pretty)(options "")(descr ""))
+  (lib (name Mounting_Keyboard_Stabilizer)(type KiCad)(uri C:/Users/Tobi/Documents/GitHub/Switch_Keyboard/modules/Mounting_Keyboard_Stabilizer.pretty)(options "")(descr ""))
 )
