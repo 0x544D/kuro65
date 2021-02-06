@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name atmega32u4)(type Legacy)(uri ${KIPRJMOD}/../lib/atmega32u4.lib)(options "")(descr ""))
+  (lib (name mx1a-simple)(type Legacy)(uri ${KIPRJMOD}/../lib/mx1a-simple.lib)(options "")(descr ""))
+)

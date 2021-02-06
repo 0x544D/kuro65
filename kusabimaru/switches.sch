@@ -1,0 +1,3063 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mx1a-simple:MX1A S3
+U 1 1 60139318
+P 2550 3250
+F 0 "S3" V 2200 3500 60  0000 R CNN
+F 1 "ESC" H 2700 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_MX_1u" H 2550 3250 50  0001 C CNN
+F 3 "" H 2550 3250 50  0001 C CNN
+	1    2550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 60139BC0
+P 2550 3200
+F 0 "D1" H 2550 3350 50  0000 C CNN
+F 1 "1N4148" H 2700 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 3200 50  0001 C CNN
+F 3 "~" H 2550 3200 50  0001 C CNN
+	1    2550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 3200 2750 3200
+Wire Wire Line
+	2750 3200 2750 3100
+Wire Wire Line
+	2400 3200 2350 3200
+Wire Wire Line
+	2350 3200 2350 3300
+Wire Wire Line
+	2350 3300 2800 3300
+$Comp
+L mx1a-simple:MX1A S8
+U 1 1 601408D7
+P 3350 3250
+F 0 "S8" V 3000 3500 60  0000 R CNN
+F 1 "1" H 3500 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_MX_1u" H 3350 3250 50  0001 C CNN
+F 3 "" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 601408DD
+P 3350 3200
+F 0 "D6" H 3350 3350 50  0000 C CNN
+F 1 "1N4148" H 3500 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 3200 50  0001 C CNN
+F 3 "~" H 3350 3200 50  0001 C CNN
+	1    3350 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 3200 3550 3200
+Wire Wire Line
+	3550 3200 3550 3100
+Wire Wire Line
+	3200 3200 3150 3200
+Wire Wire Line
+	3150 3200 3150 3300
+Wire Wire Line
+	3150 3300 3600 3300
+$Comp
+L mx1a-simple:MX1A S13
+U 1 1 601418AB
+P 4150 3250
+F 0 "S13" V 3800 3500 60  0000 R CNN
+F 1 "2" H 4300 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4150 3250 50  0001 C CNN
+F 3 "" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 601418B1
+P 4150 3200
+F 0 "D11" H 4150 3350 50  0000 C CNN
+F 1 "1N4148" H 4300 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 3200 50  0001 C CNN
+F 3 "~" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 3200 4350 3200
+Wire Wire Line
+	4350 3200 4350 3100
+Wire Wire Line
+	4000 3200 3950 3200
+Wire Wire Line
+	3950 3200 3950 3300
+Wire Wire Line
+	3950 3300 4400 3300
+$Comp
+L mx1a-simple:MX1A S18
+U 1 1 60142631
+P 4950 3250
+F 0 "S18" V 4600 3500 60  0000 R CNN
+F 1 "3" H 5100 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4950 3250 50  0001 C CNN
+F 3 "" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 60142637
+P 4950 3200
+F 0 "D16" H 4950 3350 50  0000 C CNN
+F 1 "1N4148" H 5100 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 3200 50  0001 C CNN
+F 3 "~" H 4950 3200 50  0001 C CNN
+	1    4950 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 3200 5150 3200
+Wire Wire Line
+	5150 3200 5150 3100
+Wire Wire Line
+	4800 3200 4750 3200
+Wire Wire Line
+	4750 3200 4750 3300
+Wire Wire Line
+	4750 3300 5200 3300
+$Comp
+L mx1a-simple:MX1A S22
+U 1 1 6014F137
+P 5750 3250
+F 0 "S22" V 5400 3500 60  0000 R CNN
+F 1 "4" H 5900 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 5750 3250 50  0001 C CNN
+F 3 "" H 5750 3250 50  0001 C CNN
+	1    5750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 6014F13D
+P 5750 3200
+F 0 "D20" H 5750 3350 50  0000 C CNN
+F 1 "1N4148" H 5900 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 3200 50  0001 C CNN
+F 3 "~" H 5750 3200 50  0001 C CNN
+	1    5750 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 3100
+Wire Wire Line
+	5600 3200 5550 3200
+Wire Wire Line
+	5550 3200 5550 3300
+Wire Wire Line
+	5550 3300 6000 3300
+$Comp
+L mx1a-simple:MX1A S27
+U 1 1 6014F148
+P 6550 3250
+F 0 "S27" V 6200 3500 60  0000 R CNN
+F 1 "5" H 6700 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 6550 3250 50  0001 C CNN
+F 3 "" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 6014F14E
+P 6550 3200
+F 0 "D24" H 6550 3350 50  0000 C CNN
+F 1 "1N4148" H 6700 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 3200 50  0001 C CNN
+F 3 "~" H 6550 3200 50  0001 C CNN
+	1    6550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3200 6750 3200
+Wire Wire Line
+	6750 3200 6750 3100
+Wire Wire Line
+	6400 3200 6350 3200
+Wire Wire Line
+	6350 3200 6350 3300
+Wire Wire Line
+	6350 3300 6800 3300
+$Comp
+L mx1a-simple:MX1A S34
+U 1 1 6014F159
+P 7350 3250
+F 0 "S34" V 7000 3500 60  0000 R CNN
+F 1 "6" H 7500 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 7350 3250 50  0001 C CNN
+F 3 "" H 7350 3250 50  0001 C CNN
+	1    7350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 6014F15F
+P 7350 3200
+F 0 "D29" H 7350 3350 50  0000 C CNN
+F 1 "1N4148" H 7500 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 3200 50  0001 C CNN
+F 3 "~" H 7350 3200 50  0001 C CNN
+	1    7350 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 3200 7550 3200
+Wire Wire Line
+	7550 3200 7550 3100
+Wire Wire Line
+	7200 3200 7150 3200
+Wire Wire Line
+	7150 3200 7150 3300
+Wire Wire Line
+	7150 3300 7600 3300
+$Comp
+L mx1a-simple:MX1A S40
+U 1 1 6014F16A
+P 8150 3250
+F 0 "S40" V 7800 3500 60  0000 R CNN
+F 1 "7" H 8300 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8150 3250 50  0001 C CNN
+F 3 "" H 8150 3250 50  0001 C CNN
+	1    8150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 6014F170
+P 8150 3200
+F 0 "D34" H 8150 3350 50  0000 C CNN
+F 1 "1N4148" H 8300 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 3200 50  0001 C CNN
+F 3 "~" H 8150 3200 50  0001 C CNN
+	1    8150 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 3200 8350 3200
+Wire Wire Line
+	8350 3200 8350 3100
+Wire Wire Line
+	8000 3200 7950 3200
+Wire Wire Line
+	7950 3200 7950 3300
+Wire Wire Line
+	7950 3300 8400 3300
+$Comp
+L mx1a-simple:MX1A S45
+U 1 1 60181C95
+P 8950 3250
+F 0 "S45" V 8600 3500 60  0000 R CNN
+F 1 "8" H 9100 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8950 3250 50  0001 C CNN
+F 3 "" H 8950 3250 50  0001 C CNN
+	1    8950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 60181C9B
+P 8950 3200
+F 0 "D39" H 8950 3350 50  0000 C CNN
+F 1 "1N4148" H 9100 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 3200 50  0001 C CNN
+F 3 "~" H 8950 3200 50  0001 C CNN
+	1    8950 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 3200 9150 3200
+Wire Wire Line
+	9150 3200 9150 3100
+Wire Wire Line
+	8800 3200 8750 3200
+Wire Wire Line
+	8750 3200 8750 3300
+Wire Wire Line
+	8750 3300 9200 3300
+$Comp
+L mx1a-simple:MX1A S49
+U 1 1 60181CA6
+P 9750 3250
+F 0 "S49" V 9400 3500 60  0000 R CNN
+F 1 "9" H 9900 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 9750 3250 50  0001 C CNN
+F 3 "" H 9750 3250 50  0001 C CNN
+	1    9750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 60181CAC
+P 9750 3200
+F 0 "D43" H 9750 3350 50  0000 C CNN
+F 1 "1N4148" H 9900 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 3200 50  0001 C CNN
+F 3 "~" H 9750 3200 50  0001 C CNN
+	1    9750 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 3200 9950 3200
+Wire Wire Line
+	9950 3200 9950 3100
+Wire Wire Line
+	9600 3200 9550 3200
+Wire Wire Line
+	9550 3200 9550 3300
+Wire Wire Line
+	9550 3300 10000 3300
+$Comp
+L mx1a-simple:MX1A S54
+U 1 1 60181CB7
+P 10550 3250
+F 0 "S54" V 10200 3500 60  0000 R CNN
+F 1 "0" H 10700 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 10550 3250 50  0001 C CNN
+F 3 "" H 10550 3250 50  0001 C CNN
+	1    10550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 60181CBD
+P 10550 3200
+F 0 "D47" H 10550 3350 50  0000 C CNN
+F 1 "1N4148" H 10700 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 3200 50  0001 C CNN
+F 3 "~" H 10550 3200 50  0001 C CNN
+	1    10550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 3200 10750 3200
+Wire Wire Line
+	10750 3200 10750 3100
+Wire Wire Line
+	10400 3200 10350 3200
+Wire Wire Line
+	10350 3200 10350 3300
+Wire Wire Line
+	10350 3300 10800 3300
+$Comp
+L mx1a-simple:MX1A S60
+U 1 1 60181CC8
+P 11350 3250
+F 0 "S60" V 11000 3500 60  0000 R CNN
+F 1 "-" H 11500 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 11350 3250 50  0001 C CNN
+F 3 "" H 11350 3250 50  0001 C CNN
+	1    11350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 60181CCE
+P 11350 3200
+F 0 "D52" H 11350 3350 50  0000 C CNN
+F 1 "1N4148" H 11500 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11350 3200 50  0001 C CNN
+F 3 "~" H 11350 3200 50  0001 C CNN
+	1    11350 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11500 3200 11550 3200
+Wire Wire Line
+	11550 3200 11550 3100
+Wire Wire Line
+	11200 3200 11150 3200
+Wire Wire Line
+	11150 3200 11150 3300
+Wire Wire Line
+	11150 3300 11600 3300
+$Comp
+L mx1a-simple:MX1A S65
+U 1 1 60181CD9
+P 12150 3250
+F 0 "S65" V 11800 3500 60  0000 R CNN
+F 1 "=" H 12300 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 12150 3250 50  0001 C CNN
+F 3 "" H 12150 3250 50  0001 C CNN
+	1    12150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 60181CDF
+P 12150 3200
+F 0 "D57" H 12150 3350 50  0000 C CNN
+F 1 "1N4148" H 12300 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12150 3200 50  0001 C CNN
+F 3 "~" H 12150 3200 50  0001 C CNN
+	1    12150 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 3200 12350 3200
+Wire Wire Line
+	12350 3200 12350 3100
+Wire Wire Line
+	12000 3200 11950 3200
+Wire Wire Line
+	11950 3200 11950 3300
+Wire Wire Line
+	11950 3300 12400 3300
+$Comp
+L mx1a-simple:MX1A S70
+U 1 1 60181CEA
+P 12950 3250
+F 0 "S70" V 12600 3500 60  0000 R CNN
+F 1 "BKSP_1" H 13100 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 12950 3250 50  0001 C CNN
+F 3 "" H 12950 3250 50  0001 C CNN
+	1    12950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 60181CF0
+P 12950 3200
+F 0 "D62" H 12950 3350 50  0000 C CNN
+F 1 "1N4148" H 13100 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12950 3200 50  0001 C CNN
+F 3 "~" H 12950 3200 50  0001 C CNN
+	1    12950 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13100 3200 13150 3200
+Wire Wire Line
+	13150 3200 13150 3100
+Wire Wire Line
+	12800 3200 12750 3200
+Wire Wire Line
+	12750 3200 12750 3300
+Wire Wire Line
+	12750 3300 13200 3300
+$Comp
+L mx1a-simple:MX1A S74
+U 1 1 60181CFB
+P 13750 3250
+F 0 "S74" V 13400 3500 60  0000 R CNN
+F 1 "BKSP_2" H 13900 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 13750 3250 50  0001 C CNN
+F 3 "" H 13750 3250 50  0001 C CNN
+	1    13750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 60181D01
+P 13750 3350
+F 0 "D64" H 13750 3500 50  0000 C CNN
+F 1 "1N4148" H 13900 3300 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 3350 50  0001 C CNN
+F 3 "~" H 13750 3350 50  0001 C CNN
+	1    13750 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13900 3350 13950 3350
+Wire Wire Line
+	13600 3350 13550 3350
+Wire Wire Line
+	13550 3350 13550 3450
+Wire Wire Line
+	13550 3450 14000 3450
+$Comp
+L mx1a-simple:MX1A S79
+U 1 1 60181D0C
+P 14550 3250
+F 0 "S79" V 14200 3500 60  0000 R CNN
+F 1 "DEL" H 14700 3600 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 14550 3250 50  0001 C CNN
+F 3 "" H 14550 3250 50  0001 C CNN
+	1    14550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D69
+U 1 1 60181D12
+P 14550 3200
+F 0 "D69" H 14550 3350 50  0000 C CNN
+F 1 "1N4148" H 14700 3150 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14550 3200 50  0001 C CNN
+F 3 "~" H 14550 3200 50  0001 C CNN
+	1    14550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14700 3200 14750 3200
+Wire Wire Line
+	14750 3200 14750 3100
+Wire Wire Line
+	14400 3200 14350 3200
+Wire Wire Line
+	14350 3200 14350 3300
+Wire Wire Line
+	14350 3300 14800 3300
+Wire Wire Line
+	1550 2750 2350 2750
+Wire Wire Line
+	2350 2750 2350 2850
+Wire Wire Line
+	2350 2750 3150 2750
+Wire Wire Line
+	3150 2750 3150 2850
+Connection ~ 2350 2750
+Wire Wire Line
+	3150 2750 3950 2750
+Wire Wire Line
+	3950 2750 3950 2850
+Connection ~ 3150 2750
+Wire Wire Line
+	3950 2750 4750 2750
+Wire Wire Line
+	4750 2750 4750 2850
+Connection ~ 3950 2750
+Wire Wire Line
+	4750 2750 5550 2750
+Wire Wire Line
+	5550 2750 5550 2850
+Connection ~ 4750 2750
+Wire Wire Line
+	5550 2750 6350 2750
+Wire Wire Line
+	6350 2750 6350 2850
+Connection ~ 5550 2750
+Wire Wire Line
+	6350 2750 7150 2750
+Wire Wire Line
+	7150 2750 7150 2850
+Connection ~ 6350 2750
+Wire Wire Line
+	7150 2750 7950 2750
+Wire Wire Line
+	7950 2750 7950 2850
+Connection ~ 7150 2750
+Wire Wire Line
+	7950 2750 8750 2750
+Wire Wire Line
+	8750 2750 8750 2850
+Connection ~ 7950 2750
+Wire Wire Line
+	8750 2750 9550 2750
+Wire Wire Line
+	9550 2750 9550 2850
+Connection ~ 8750 2750
+Wire Wire Line
+	9550 2750 10350 2750
+Wire Wire Line
+	10350 2750 10350 2850
+Connection ~ 9550 2750
+Wire Wire Line
+	10350 2750 11150 2750
+Wire Wire Line
+	11150 2750 11150 2850
+Connection ~ 10350 2750
+Wire Wire Line
+	11150 2750 11950 2750
+Wire Wire Line
+	11950 2750 11950 2850
+Connection ~ 11150 2750
+Wire Wire Line
+	11950 2750 12750 2750
+Wire Wire Line
+	12750 2750 12750 2850
+Connection ~ 11950 2750
+Wire Wire Line
+	12750 2750 13550 2750
+Wire Wire Line
+	13550 2750 13550 2800
+Connection ~ 12750 2750
+Wire Wire Line
+	13550 2750 14350 2750
+Wire Wire Line
+	14350 2750 14350 2850
+Connection ~ 13550 2750
+$Comp
+L mx1a-simple:MX1A S4
+U 1 1 6015B937
+P 2550 4100
+F 0 "S4" V 2200 4350 60  0000 R CNN
+F 1 "TAB" H 2700 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.5u" H 2550 4100 50  0001 C CNN
+F 3 "" H 2550 4100 50  0001 C CNN
+	1    2550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6015B93D
+P 2550 4050
+F 0 "D2" H 2550 4200 50  0000 C CNN
+F 1 "1N4148" H 2700 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 4050 50  0001 C CNN
+F 3 "~" H 2550 4050 50  0001 C CNN
+	1    2550 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 4050 2750 4050
+Wire Wire Line
+	2750 4050 2750 3950
+Wire Wire Line
+	2400 4050 2350 4050
+Wire Wire Line
+	2350 4050 2350 4150
+Wire Wire Line
+	2350 4150 2800 4150
+$Comp
+L mx1a-simple:MX1A S9
+U 1 1 6015B948
+P 3350 4100
+F 0 "S9" V 3000 4350 60  0000 R CNN
+F 1 "Q" H 3500 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 3350 4100 50  0001 C CNN
+F 3 "" H 3350 4100 50  0001 C CNN
+	1    3350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 6015B94E
+P 3350 4050
+F 0 "D7" H 3350 4200 50  0000 C CNN
+F 1 "1N4148" H 3500 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 4050 50  0001 C CNN
+F 3 "~" H 3350 4050 50  0001 C CNN
+	1    3350 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4050 3550 4050
+Wire Wire Line
+	3550 4050 3550 3950
+Wire Wire Line
+	3200 4050 3150 4050
+Wire Wire Line
+	3150 4050 3150 4150
+Wire Wire Line
+	3150 4150 3600 4150
+$Comp
+L mx1a-simple:MX1A S14
+U 1 1 6015B959
+P 4150 4100
+F 0 "S14" V 3800 4350 60  0000 R CNN
+F 1 "W" H 4300 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4150 4100 50  0001 C CNN
+F 3 "" H 4150 4100 50  0001 C CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 6015B95F
+P 4150 4050
+F 0 "D12" H 4150 4200 50  0000 C CNN
+F 1 "1N4148" H 4300 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 4050 50  0001 C CNN
+F 3 "~" H 4150 4050 50  0001 C CNN
+	1    4150 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 4050 4350 4050
+Wire Wire Line
+	4350 4050 4350 3950
+Wire Wire Line
+	4000 4050 3950 4050
+Wire Wire Line
+	3950 4050 3950 4150
+Wire Wire Line
+	3950 4150 4400 4150
+$Comp
+L mx1a-simple:MX1A S19
+U 1 1 6015B96A
+P 4950 4100
+F 0 "S19" V 4600 4350 60  0000 R CNN
+F 1 "E" H 5100 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4950 4100 50  0001 C CNN
+F 3 "" H 4950 4100 50  0001 C CNN
+	1    4950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 6015B970
+P 4950 4050
+F 0 "D17" H 4950 4200 50  0000 C CNN
+F 1 "1N4148" H 5100 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 4050 50  0001 C CNN
+F 3 "~" H 4950 4050 50  0001 C CNN
+	1    4950 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 4050 5150 4050
+Wire Wire Line
+	5150 4050 5150 3950
+Wire Wire Line
+	4800 4050 4750 4050
+Wire Wire Line
+	4750 4050 4750 4150
+Wire Wire Line
+	4750 4150 5200 4150
+$Comp
+L mx1a-simple:MX1A S23
+U 1 1 6015B97B
+P 5750 4100
+F 0 "S23" V 5400 4350 60  0000 R CNN
+F 1 "R" H 5900 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 5750 4100 50  0001 C CNN
+F 3 "" H 5750 4100 50  0001 C CNN
+	1    5750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 6015B981
+P 5750 4050
+F 0 "D21" H 5750 4200 50  0000 C CNN
+F 1 "1N4148" H 5900 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 4050 50  0001 C CNN
+F 3 "~" H 5750 4050 50  0001 C CNN
+	1    5750 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 4050 5950 4050
+Wire Wire Line
+	5950 4050 5950 3950
+Wire Wire Line
+	5600 4050 5550 4050
+Wire Wire Line
+	5550 4050 5550 4150
+Wire Wire Line
+	5550 4150 6000 4150
+$Comp
+L mx1a-simple:MX1A S28
+U 1 1 6015B98C
+P 6550 4100
+F 0 "S28" V 6200 4350 60  0000 R CNN
+F 1 "T" H 6700 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 6550 4100 50  0001 C CNN
+F 3 "" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 6015B992
+P 6550 4050
+F 0 "D25" H 6550 4200 50  0000 C CNN
+F 1 "1N4148" H 6700 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 4050 50  0001 C CNN
+F 3 "~" H 6550 4050 50  0001 C CNN
+	1    6550 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 4050 6750 4050
+Wire Wire Line
+	6750 4050 6750 3950
+Wire Wire Line
+	6400 4050 6350 4050
+Wire Wire Line
+	6350 4050 6350 4150
+Wire Wire Line
+	6350 4150 6800 4150
+$Comp
+L mx1a-simple:MX1A S35
+U 1 1 6015B99D
+P 7350 4100
+F 0 "S35" V 7000 4350 60  0000 R CNN
+F 1 "Y" H 7500 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 7350 4100 50  0001 C CNN
+F 3 "" H 7350 4100 50  0001 C CNN
+	1    7350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 6015B9A3
+P 7350 4050
+F 0 "D30" H 7350 4200 50  0000 C CNN
+F 1 "1N4148" H 7500 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 4050 50  0001 C CNN
+F 3 "~" H 7350 4050 50  0001 C CNN
+	1    7350 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 4050 7550 4050
+Wire Wire Line
+	7550 4050 7550 3950
+Wire Wire Line
+	7200 4050 7150 4050
+Wire Wire Line
+	7150 4050 7150 4150
+Wire Wire Line
+	7150 4150 7600 4150
+$Comp
+L mx1a-simple:MX1A S41
+U 1 1 6015B9AE
+P 8150 4100
+F 0 "S41" V 7800 4350 60  0000 R CNN
+F 1 "U" H 8300 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8150 4100 50  0001 C CNN
+F 3 "" H 8150 4100 50  0001 C CNN
+	1    8150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 6015B9B4
+P 8150 4050
+F 0 "D35" H 8150 4200 50  0000 C CNN
+F 1 "1N4148" H 8300 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 4050 50  0001 C CNN
+F 3 "~" H 8150 4050 50  0001 C CNN
+	1    8150 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 4050 8350 4050
+Wire Wire Line
+	8350 4050 8350 3950
+Wire Wire Line
+	8000 4050 7950 4050
+Wire Wire Line
+	7950 4050 7950 4150
+Wire Wire Line
+	7950 4150 8400 4150
+$Comp
+L mx1a-simple:MX1A S46
+U 1 1 6015B9BF
+P 8950 4100
+F 0 "S46" V 8600 4350 60  0000 R CNN
+F 1 "I" H 9100 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 6015B9C5
+P 8950 4050
+F 0 "D40" H 8950 4200 50  0000 C CNN
+F 1 "1N4148" H 9100 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 4050 50  0001 C CNN
+F 3 "~" H 8950 4050 50  0001 C CNN
+	1    8950 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 4050 9150 4050
+Wire Wire Line
+	9150 4050 9150 3950
+Wire Wire Line
+	8800 4050 8750 4050
+Wire Wire Line
+	8750 4050 8750 4150
+Wire Wire Line
+	8750 4150 9200 4150
+$Comp
+L mx1a-simple:MX1A S50
+U 1 1 6015B9D0
+P 9750 4100
+F 0 "S50" V 9400 4350 60  0000 R CNN
+F 1 "O" H 9900 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 9750 4100 50  0001 C CNN
+F 3 "" H 9750 4100 50  0001 C CNN
+	1    9750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 6015B9D6
+P 9750 4050
+F 0 "D44" H 9750 4200 50  0000 C CNN
+F 1 "1N4148" H 9900 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 4050 50  0001 C CNN
+F 3 "~" H 9750 4050 50  0001 C CNN
+	1    9750 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 4050 9950 4050
+Wire Wire Line
+	9950 4050 9950 3950
+Wire Wire Line
+	9600 4050 9550 4050
+Wire Wire Line
+	9550 4050 9550 4150
+Wire Wire Line
+	9550 4150 10000 4150
+$Comp
+L mx1a-simple:MX1A S55
+U 1 1 6015B9E1
+P 10550 4100
+F 0 "S55" V 10200 4350 60  0000 R CNN
+F 1 "P" H 10700 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 10550 4100 50  0001 C CNN
+F 3 "" H 10550 4100 50  0001 C CNN
+	1    10550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 6015B9E7
+P 10550 4050
+F 0 "D48" H 10550 4200 50  0000 C CNN
+F 1 "1N4148" H 10700 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 4050 50  0001 C CNN
+F 3 "~" H 10550 4050 50  0001 C CNN
+	1    10550 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 4050 10750 4050
+Wire Wire Line
+	10750 4050 10750 3950
+Wire Wire Line
+	10400 4050 10350 4050
+Wire Wire Line
+	10350 4050 10350 4150
+Wire Wire Line
+	10350 4150 10800 4150
+$Comp
+L mx1a-simple:MX1A S61
+U 1 1 6015B9F2
+P 11350 4100
+F 0 "S61" V 11000 4350 60  0000 R CNN
+F 1 "[" H 11500 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 11350 4100 50  0001 C CNN
+F 3 "" H 11350 4100 50  0001 C CNN
+	1    11350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 6015B9F8
+P 11350 4050
+F 0 "D53" H 11350 4200 50  0000 C CNN
+F 1 "1N4148" H 11500 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11350 4050 50  0001 C CNN
+F 3 "~" H 11350 4050 50  0001 C CNN
+	1    11350 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11500 4050 11550 4050
+Wire Wire Line
+	11550 4050 11550 3950
+Wire Wire Line
+	11200 4050 11150 4050
+Wire Wire Line
+	11150 4050 11150 4150
+Wire Wire Line
+	11150 4150 11600 4150
+$Comp
+L mx1a-simple:MX1A S66
+U 1 1 6015BA03
+P 12150 4100
+F 0 "S66" V 11800 4350 60  0000 R CNN
+F 1 "]" H 12300 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 12150 4100 50  0001 C CNN
+F 3 "" H 12150 4100 50  0001 C CNN
+	1    12150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 6015BA09
+P 12150 4050
+F 0 "D58" H 12150 4200 50  0000 C CNN
+F 1 "1N4148" H 12300 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12150 4050 50  0001 C CNN
+F 3 "~" H 12150 4050 50  0001 C CNN
+	1    12150 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 4050 12350 4050
+Wire Wire Line
+	12350 4050 12350 3950
+Wire Wire Line
+	12000 4050 11950 4050
+Wire Wire Line
+	11950 4050 11950 4150
+Wire Wire Line
+	11950 4150 12400 4150
+$Comp
+L mx1a-simple:MX1A S75
+U 1 1 6015BA25
+P 13750 4100
+F 0 "S75" V 13400 4350 60  0000 R CNN
+F 1 "\\" H 13900 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.5u" H 13750 4100 50  0001 C CNN
+F 3 "" H 13750 4100 50  0001 C CNN
+	1    13750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 6015BA2B
+P 13750 4050
+F 0 "D65" H 13750 4200 50  0000 C CNN
+F 1 "1N4148" H 13900 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 4050 50  0001 C CNN
+F 3 "~" H 13750 4050 50  0001 C CNN
+	1    13750 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13900 4050 13950 4050
+Wire Wire Line
+	13950 4050 13950 3950
+Wire Wire Line
+	13600 4050 13550 4050
+Wire Wire Line
+	13550 4050 13550 4150
+Wire Wire Line
+	13550 4150 14000 4150
+$Comp
+L mx1a-simple:MX1A S80
+U 1 1 6015BA36
+P 14550 4100
+F 0 "S80" V 14200 4350 60  0000 R CNN
+F 1 "PG_UP" H 14700 4450 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 14550 4100 50  0001 C CNN
+F 3 "" H 14550 4100 50  0001 C CNN
+	1    14550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D70
+U 1 1 6015BA3C
+P 14550 4050
+F 0 "D70" H 14550 4200 50  0000 C CNN
+F 1 "1N4148" H 14700 4000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14550 4050 50  0001 C CNN
+F 3 "~" H 14550 4050 50  0001 C CNN
+	1    14550 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14700 4050 14750 4050
+Wire Wire Line
+	14750 4050 14750 3950
+Wire Wire Line
+	14400 4050 14350 4050
+Wire Wire Line
+	14350 4050 14350 4150
+Wire Wire Line
+	14350 4150 14800 4150
+Wire Wire Line
+	1550 3600 2350 3600
+Wire Wire Line
+	2350 3600 2350 3700
+Wire Wire Line
+	2350 3600 3150 3600
+Wire Wire Line
+	3150 3600 3150 3700
+Connection ~ 2350 3600
+Wire Wire Line
+	3150 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 3700
+Connection ~ 3150 3600
+Wire Wire Line
+	3950 3600 4750 3600
+Wire Wire Line
+	4750 3600 4750 3700
+Connection ~ 3950 3600
+Wire Wire Line
+	4750 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3700
+Connection ~ 4750 3600
+Wire Wire Line
+	5550 3600 6350 3600
+Wire Wire Line
+	6350 3600 6350 3700
+Connection ~ 5550 3600
+Wire Wire Line
+	6350 3600 7150 3600
+Wire Wire Line
+	7150 3600 7150 3700
+Connection ~ 6350 3600
+Wire Wire Line
+	7150 3600 7950 3600
+Wire Wire Line
+	7950 3600 7950 3700
+Connection ~ 7150 3600
+Wire Wire Line
+	7950 3600 8750 3600
+Wire Wire Line
+	8750 3600 8750 3700
+Connection ~ 7950 3600
+Wire Wire Line
+	8750 3600 9550 3600
+Wire Wire Line
+	9550 3600 9550 3700
+Connection ~ 8750 3600
+Wire Wire Line
+	9550 3600 10350 3600
+Wire Wire Line
+	10350 3600 10350 3700
+Connection ~ 9550 3600
+Wire Wire Line
+	10350 3600 11150 3600
+Wire Wire Line
+	11150 3600 11150 3700
+Connection ~ 10350 3600
+Wire Wire Line
+	11150 3600 11950 3600
+Wire Wire Line
+	11950 3600 11950 3700
+Connection ~ 11150 3600
+Connection ~ 11950 3600
+Wire Wire Line
+	13550 3600 13550 3700
+Wire Wire Line
+	13550 3600 14350 3600
+Wire Wire Line
+	14350 3600 14350 3700
+Connection ~ 13550 3600
+$Comp
+L mx1a-simple:MX1A S5
+U 1 1 6018CD21
+P 2550 4950
+F 0 "S5" V 2200 5200 60  0000 R CNN
+F 1 "CAPS_1.75" H 2700 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.75u" H 2550 4950 50  0001 C CNN
+F 3 "" H 2550 4950 50  0001 C CNN
+	1    2550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 6018CD27
+P 2550 5100
+F 0 "D3" H 2550 5250 50  0000 C CNN
+F 1 "1N4148" H 2700 5050 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 5100 50  0001 C CNN
+F 3 "~" H 2550 5100 50  0001 C CNN
+	1    2550 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 5100 2750 5100
+Wire Wire Line
+	2400 5100 2350 5100
+Wire Wire Line
+	2350 5100 2350 5200
+Wire Wire Line
+	2350 5200 2800 5200
+$Comp
+L mx1a-simple:MX1A S10
+U 1 1 6018CD32
+P 3350 4950
+F 0 "S10" V 3000 5200 60  0000 R CNN
+F 1 "A" H 3500 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 3350 4950 50  0001 C CNN
+F 3 "" H 3350 4950 50  0001 C CNN
+	1    3350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 6018CD38
+P 3350 4900
+F 0 "D8" H 3350 5050 50  0000 C CNN
+F 1 "1N4148" H 3500 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 4900 50  0001 C CNN
+F 3 "~" H 3350 4900 50  0001 C CNN
+	1    3350 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4900 3550 4900
+Wire Wire Line
+	3550 4900 3550 4800
+Wire Wire Line
+	3200 4900 3150 4900
+Wire Wire Line
+	3150 4900 3150 5000
+Wire Wire Line
+	3150 5000 3600 5000
+$Comp
+L mx1a-simple:MX1A S15
+U 1 1 6018CD43
+P 4150 4950
+F 0 "S15" V 3800 5200 60  0000 R CNN
+F 1 "S" H 4300 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4150 4950 50  0001 C CNN
+F 3 "" H 4150 4950 50  0001 C CNN
+	1    4150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 6018CD49
+P 4150 4900
+F 0 "D13" H 4150 5050 50  0000 C CNN
+F 1 "1N4148" H 4300 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 4900 50  0001 C CNN
+F 3 "~" H 4150 4900 50  0001 C CNN
+	1    4150 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 4900 4350 4900
+Wire Wire Line
+	4350 4900 4350 4800
+Wire Wire Line
+	4000 4900 3950 4900
+Wire Wire Line
+	3950 4900 3950 5000
+Wire Wire Line
+	3950 5000 4400 5000
+$Comp
+L mx1a-simple:MX1A S20
+U 1 1 6018CD54
+P 4950 4950
+F 0 "S20" V 4600 5200 60  0000 R CNN
+F 1 "D" H 5100 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4950 4950 50  0001 C CNN
+F 3 "" H 4950 4950 50  0001 C CNN
+	1    4950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 6018CD5A
+P 4950 4900
+F 0 "D18" H 4950 5050 50  0000 C CNN
+F 1 "1N4148" H 5100 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 4900 50  0001 C CNN
+F 3 "~" H 4950 4900 50  0001 C CNN
+	1    4950 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 4900 5150 4900
+Wire Wire Line
+	5150 4900 5150 4800
+Wire Wire Line
+	4800 4900 4750 4900
+Wire Wire Line
+	4750 4900 4750 5000
+Wire Wire Line
+	4750 5000 5200 5000
+$Comp
+L mx1a-simple:MX1A S24
+U 1 1 6018CD65
+P 5750 4950
+F 0 "S24" V 5400 5200 60  0000 R CNN
+F 1 "F" H 5900 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 5750 4950 50  0001 C CNN
+F 3 "" H 5750 4950 50  0001 C CNN
+	1    5750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 6018CD6B
+P 5750 4900
+F 0 "D22" H 5750 5050 50  0000 C CNN
+F 1 "1N4148" H 5900 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 4900 50  0001 C CNN
+F 3 "~" H 5750 4900 50  0001 C CNN
+	1    5750 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 4900 5950 4900
+Wire Wire Line
+	5950 4900 5950 4800
+Wire Wire Line
+	5600 4900 5550 4900
+Wire Wire Line
+	5550 4900 5550 5000
+Wire Wire Line
+	5550 5000 6000 5000
+$Comp
+L mx1a-simple:MX1A S29
+U 1 1 6018CD76
+P 6550 4950
+F 0 "S29" V 6200 5200 60  0000 R CNN
+F 1 "G" H 6700 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 6018CD7C
+P 6550 4900
+F 0 "D26" H 6550 5050 50  0000 C CNN
+F 1 "1N4148" H 6700 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 4900 50  0001 C CNN
+F 3 "~" H 6550 4900 50  0001 C CNN
+	1    6550 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 4900 6750 4900
+Wire Wire Line
+	6750 4900 6750 4800
+Wire Wire Line
+	6400 4900 6350 4900
+Wire Wire Line
+	6350 4900 6350 5000
+Wire Wire Line
+	6350 5000 6800 5000
+$Comp
+L mx1a-simple:MX1A S36
+U 1 1 6018CD87
+P 7350 4950
+F 0 "S36" V 7000 5200 60  0000 R CNN
+F 1 "H" H 7500 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 7350 4950 50  0001 C CNN
+F 3 "" H 7350 4950 50  0001 C CNN
+	1    7350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 6018CD8D
+P 7350 4900
+F 0 "D31" H 7350 5050 50  0000 C CNN
+F 1 "1N4148" H 7500 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 4900 50  0001 C CNN
+F 3 "~" H 7350 4900 50  0001 C CNN
+	1    7350 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 4900 7550 4900
+Wire Wire Line
+	7550 4900 7550 4800
+Wire Wire Line
+	7200 4900 7150 4900
+Wire Wire Line
+	7150 4900 7150 5000
+Wire Wire Line
+	7150 5000 7600 5000
+$Comp
+L mx1a-simple:MX1A S42
+U 1 1 6018CD98
+P 8150 4950
+F 0 "S42" V 7800 5200 60  0000 R CNN
+F 1 "J" H 8300 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8150 4950 50  0001 C CNN
+F 3 "" H 8150 4950 50  0001 C CNN
+	1    8150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 6018CD9E
+P 8150 4900
+F 0 "D36" H 8150 5050 50  0000 C CNN
+F 1 "1N4148" H 8300 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+	1    8150 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 4900 8350 4900
+Wire Wire Line
+	8350 4900 8350 4800
+Wire Wire Line
+	8000 4900 7950 4900
+Wire Wire Line
+	7950 4900 7950 5000
+Wire Wire Line
+	7950 5000 8400 5000
+$Comp
+L mx1a-simple:MX1A S47
+U 1 1 6018CDA9
+P 8950 4950
+F 0 "S47" V 8600 5200 60  0000 R CNN
+F 1 "K" H 9100 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8950 4950 50  0001 C CNN
+F 3 "" H 8950 4950 50  0001 C CNN
+	1    8950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 6018CDAF
+P 8950 4900
+F 0 "D41" H 8950 5050 50  0000 C CNN
+F 1 "1N4148" H 9100 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 4900 50  0001 C CNN
+F 3 "~" H 8950 4900 50  0001 C CNN
+	1    8950 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 4900 9150 4900
+Wire Wire Line
+	9150 4900 9150 4800
+Wire Wire Line
+	8800 4900 8750 4900
+Wire Wire Line
+	8750 4900 8750 5000
+Wire Wire Line
+	8750 5000 9200 5000
+$Comp
+L mx1a-simple:MX1A S51
+U 1 1 6018CDBA
+P 9750 4950
+F 0 "S51" V 9400 5200 60  0000 R CNN
+F 1 "L" H 9900 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 9750 4950 50  0001 C CNN
+F 3 "" H 9750 4950 50  0001 C CNN
+	1    9750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 6018CDC0
+P 9750 4900
+F 0 "D45" H 9750 5050 50  0000 C CNN
+F 1 "1N4148" H 9900 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 4900 50  0001 C CNN
+F 3 "~" H 9750 4900 50  0001 C CNN
+	1    9750 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 4900 9950 4900
+Wire Wire Line
+	9950 4900 9950 4800
+Wire Wire Line
+	9600 4900 9550 4900
+Wire Wire Line
+	9550 4900 9550 5000
+Wire Wire Line
+	9550 5000 10000 5000
+$Comp
+L mx1a-simple:MX1A S56
+U 1 1 6018CDCB
+P 10550 4950
+F 0 "S56" V 10200 5200 60  0000 R CNN
+F 1 "Ö" H 10700 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 10550 4950 50  0001 C CNN
+F 3 "" H 10550 4950 50  0001 C CNN
+	1    10550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 6018CDD1
+P 10550 4900
+F 0 "D49" H 10550 5050 50  0000 C CNN
+F 1 "1N4148" H 10700 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 4900 50  0001 C CNN
+F 3 "~" H 10550 4900 50  0001 C CNN
+	1    10550 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 4900 10750 4900
+Wire Wire Line
+	10750 4900 10750 4800
+Wire Wire Line
+	10400 4900 10350 4900
+Wire Wire Line
+	10350 4900 10350 5000
+Wire Wire Line
+	10350 5000 10800 5000
+$Comp
+L mx1a-simple:MX1A S62
+U 1 1 6018CDDC
+P 11350 4950
+F 0 "S62" V 11000 5200 60  0000 R CNN
+F 1 "Ä" H 11500 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 11350 4950 50  0001 C CNN
+F 3 "" H 11350 4950 50  0001 C CNN
+	1    11350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 6018CDE2
+P 11350 4900
+F 0 "D54" H 11350 5050 50  0000 C CNN
+F 1 "1N4148" H 11500 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11350 4900 50  0001 C CNN
+F 3 "~" H 11350 4900 50  0001 C CNN
+	1    11350 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11500 4900 11550 4900
+Wire Wire Line
+	11550 4900 11550 4800
+Wire Wire Line
+	11200 4900 11150 4900
+Wire Wire Line
+	11150 4900 11150 5000
+Wire Wire Line
+	11150 5000 11600 5000
+$Comp
+L mx1a-simple:MX1A S67
+U 1 1 6018CDED
+P 12150 4950
+F 0 "S67" V 11800 5200 60  0000 R CNN
+F 1 "iso #" H 12300 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 12150 4950 50  0001 C CNN
+F 3 "" H 12150 4950 50  0001 C CNN
+	1    12150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 6018CDF3
+P 12150 4900
+F 0 "D59" H 12150 5050 50  0000 C CNN
+F 1 "1N4148" H 12300 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12150 4900 50  0001 C CNN
+F 3 "~" H 12150 4900 50  0001 C CNN
+	1    12150 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 4900 12350 4900
+Wire Wire Line
+	12350 4900 12350 4800
+Wire Wire Line
+	12000 4900 11950 4900
+Wire Wire Line
+	11950 4900 11950 5000
+Wire Wire Line
+	11950 5000 12400 5000
+$Comp
+L mx1a-simple:MX1A S76
+U 1 1 6018CE0F
+P 13750 4950
+F 0 "S76" V 13400 5200 60  0000 R CNN
+F 1 "ENTER_iso" H 13900 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_iso_enter" H 13750 4950 50  0001 C CNN
+F 3 "" H 13750 4950 50  0001 C CNN
+	1    13750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 6018CE15
+P 13750 5100
+F 0 "D66" H 13750 5250 50  0000 C CNN
+F 1 "1N4148" H 13900 5050 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 5100 50  0001 C CNN
+F 3 "~" H 13750 5100 50  0001 C CNN
+	1    13750 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13900 5100 13950 5100
+Wire Wire Line
+	13600 5100 13550 5100
+Wire Wire Line
+	13550 5100 13550 5200
+Wire Wire Line
+	13550 5200 14000 5200
+$Comp
+L mx1a-simple:MX1A S81
+U 1 1 6018CE20
+P 14550 4950
+F 0 "S81" V 14200 5200 60  0000 R CNN
+F 1 "PG_DN" H 14700 5300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 14550 4950 50  0001 C CNN
+F 3 "" H 14550 4950 50  0001 C CNN
+	1    14550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D71
+U 1 1 6018CE26
+P 14550 4900
+F 0 "D71" H 14550 5050 50  0000 C CNN
+F 1 "1N4148" H 14700 4850 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14550 4900 50  0001 C CNN
+F 3 "~" H 14550 4900 50  0001 C CNN
+	1    14550 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14700 4900 14750 4900
+Wire Wire Line
+	14750 4900 14750 4800
+Wire Wire Line
+	14400 4900 14350 4900
+Wire Wire Line
+	14350 4900 14350 5000
+Wire Wire Line
+	14350 5000 14800 5000
+Wire Wire Line
+	1550 4450 2350 4450
+Wire Wire Line
+	2350 4450 2350 4500
+Wire Wire Line
+	2350 4450 3150 4450
+Wire Wire Line
+	3150 4450 3150 4550
+Connection ~ 2350 4450
+Wire Wire Line
+	3150 4450 3950 4450
+Wire Wire Line
+	3950 4450 3950 4550
+Connection ~ 3150 4450
+Wire Wire Line
+	3950 4450 4750 4450
+Wire Wire Line
+	4750 4450 4750 4550
+Connection ~ 3950 4450
+Wire Wire Line
+	4750 4450 5550 4450
+Wire Wire Line
+	5550 4450 5550 4550
+Connection ~ 4750 4450
+Wire Wire Line
+	5550 4450 6350 4450
+Wire Wire Line
+	6350 4450 6350 4550
+Connection ~ 5550 4450
+Wire Wire Line
+	6350 4450 7150 4450
+Wire Wire Line
+	7150 4450 7150 4550
+Connection ~ 6350 4450
+Wire Wire Line
+	7150 4450 7950 4450
+Wire Wire Line
+	7950 4450 7950 4550
+Connection ~ 7150 4450
+Wire Wire Line
+	7950 4450 8750 4450
+Wire Wire Line
+	8750 4450 8750 4550
+Connection ~ 7950 4450
+Wire Wire Line
+	8750 4450 9550 4450
+Wire Wire Line
+	9550 4450 9550 4550
+Connection ~ 8750 4450
+Wire Wire Line
+	9550 4450 10350 4450
+Wire Wire Line
+	10350 4450 10350 4550
+Connection ~ 9550 4450
+Wire Wire Line
+	10350 4450 11150 4450
+Wire Wire Line
+	11150 4450 11150 4550
+Connection ~ 10350 4450
+Wire Wire Line
+	11150 4450 11950 4450
+Wire Wire Line
+	11950 4450 11950 4550
+Connection ~ 11150 4450
+Connection ~ 11950 4450
+Wire Wire Line
+	13550 4450 13550 4500
+Wire Wire Line
+	13550 4450 14350 4450
+Wire Wire Line
+	14350 4450 14350 4550
+Connection ~ 13550 4450
+$Comp
+L mx1a-simple:MX1A S1
+U 1 1 601E85DC
+P 2500 5050
+F 0 "S1" V 2150 5300 60  0000 R CNN
+F 1 "CAPS_stepped_1.25" H 2600 5150 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 2500 5050 50  0001 C CNN
+F 3 "" H 2500 5050 50  0001 C CNN
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4650 2300 4500
+Wire Wire Line
+	2300 4500 2350 4500
+Connection ~ 2350 4500
+Wire Wire Line
+	2350 4500 2350 4550
+Wire Wire Line
+	2750 4800 2750 4900
+Wire Wire Line
+	2700 4900 2750 4900
+Connection ~ 2750 4900
+Wire Wire Line
+	2750 4900 2750 5100
+$Comp
+L mx1a-simple:MX1A S6
+U 1 1 60303AC0
+P 2550 5900
+F 0 "S6" V 2200 6150 60  0000 R CNN
+F 1 "LSHIFT_iso" H 2700 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 2550 5900 50  0001 C CNN
+F 3 "" H 2550 5900 50  0001 C CNN
+	1    2550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 60303AC6
+P 2550 6050
+F 0 "D4" H 2550 6200 50  0000 C CNN
+F 1 "1N4148" H 2700 6000 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 6050 50  0001 C CNN
+F 3 "~" H 2550 6050 50  0001 C CNN
+	1    2550 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 6050 2750 6050
+Wire Wire Line
+	2400 6050 2350 6050
+Wire Wire Line
+	2350 6050 2350 6150
+Wire Wire Line
+	2350 6150 2800 6150
+$Comp
+L mx1a-simple:MX1A S11
+U 1 1 60303AD0
+P 3350 5900
+F 0 "S11" V 3000 6150 60  0000 R CNN
+F 1 "iso <" H 3500 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 3350 5900 50  0001 C CNN
+F 3 "" H 3350 5900 50  0001 C CNN
+	1    3350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 60303AD6
+P 3350 5850
+F 0 "D9" H 3350 6000 50  0000 C CNN
+F 1 "1N4148" H 3500 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 5850 50  0001 C CNN
+F 3 "~" H 3350 5850 50  0001 C CNN
+	1    3350 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 5850 3550 5850
+Wire Wire Line
+	3550 5850 3550 5750
+Wire Wire Line
+	3200 5850 3150 5850
+Wire Wire Line
+	3150 5850 3150 5950
+Wire Wire Line
+	3150 5950 3600 5950
+$Comp
+L mx1a-simple:MX1A S16
+U 1 1 60303AE1
+P 4150 5900
+F 0 "S16" V 3800 6150 60  0000 R CNN
+F 1 "Y" H 4300 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4150 5900 50  0001 C CNN
+F 3 "" H 4150 5900 50  0001 C CNN
+	1    4150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 60303AE7
+P 4150 5850
+F 0 "D14" H 4150 6000 50  0000 C CNN
+F 1 "1N4148" H 4300 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 5850 50  0001 C CNN
+F 3 "~" H 4150 5850 50  0001 C CNN
+	1    4150 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 5850 4350 5850
+Wire Wire Line
+	4350 5850 4350 5750
+Wire Wire Line
+	4000 5850 3950 5850
+Wire Wire Line
+	3950 5850 3950 5950
+Wire Wire Line
+	3950 5950 4400 5950
+$Comp
+L mx1a-simple:MX1A S21
+U 1 1 60303AF2
+P 4950 5900
+F 0 "S21" V 4600 6150 60  0000 R CNN
+F 1 "X" H 5100 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 4950 5900 50  0001 C CNN
+F 3 "" H 4950 5900 50  0001 C CNN
+	1    4950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 60303AF8
+P 4950 5850
+F 0 "D19" H 4950 6000 50  0000 C CNN
+F 1 "1N4148" H 5100 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 5850 50  0001 C CNN
+F 3 "~" H 4950 5850 50  0001 C CNN
+	1    4950 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 5850 5150 5850
+Wire Wire Line
+	5150 5850 5150 5750
+Wire Wire Line
+	4800 5850 4750 5850
+Wire Wire Line
+	4750 5850 4750 5950
+Wire Wire Line
+	4750 5950 5200 5950
+$Comp
+L mx1a-simple:MX1A S25
+U 1 1 60303B03
+P 5750 5900
+F 0 "S25" V 5400 6150 60  0000 R CNN
+F 1 "C" H 5900 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 5750 5900 50  0001 C CNN
+F 3 "" H 5750 5900 50  0001 C CNN
+	1    5750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 60303B09
+P 5750 5850
+F 0 "D23" H 5750 6000 50  0000 C CNN
+F 1 "1N4148" H 5900 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 5850 50  0001 C CNN
+F 3 "~" H 5750 5850 50  0001 C CNN
+	1    5750 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 5850 5950 5850
+Wire Wire Line
+	5950 5850 5950 5750
+Wire Wire Line
+	5600 5850 5550 5850
+Wire Wire Line
+	5550 5850 5550 5950
+Wire Wire Line
+	5550 5950 6000 5950
+$Comp
+L mx1a-simple:MX1A S30
+U 1 1 60303B14
+P 6550 5900
+F 0 "S30" V 6200 6150 60  0000 R CNN
+F 1 "V" H 6700 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 6550 5900 50  0001 C CNN
+F 3 "" H 6550 5900 50  0001 C CNN
+	1    6550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 60303B1A
+P 6550 5850
+F 0 "D27" H 6550 6000 50  0000 C CNN
+F 1 "1N4148" H 6700 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 5850 50  0001 C CNN
+F 3 "~" H 6550 5850 50  0001 C CNN
+	1    6550 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 5850 6750 5850
+Wire Wire Line
+	6750 5850 6750 5750
+Wire Wire Line
+	6400 5850 6350 5850
+Wire Wire Line
+	6350 5850 6350 5950
+Wire Wire Line
+	6350 5950 6800 5950
+$Comp
+L mx1a-simple:MX1A S37
+U 1 1 60303B25
+P 7350 5900
+F 0 "S37" V 7000 6150 60  0000 R CNN
+F 1 "B" H 7500 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 7350 5900 50  0001 C CNN
+F 3 "" H 7350 5900 50  0001 C CNN
+	1    7350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 60303B2B
+P 7350 5850
+F 0 "D32" H 7350 6000 50  0000 C CNN
+F 1 "1N4148" H 7500 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 5850 50  0001 C CNN
+F 3 "~" H 7350 5850 50  0001 C CNN
+	1    7350 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 5850 7550 5850
+Wire Wire Line
+	7550 5850 7550 5750
+Wire Wire Line
+	7200 5850 7150 5850
+Wire Wire Line
+	7150 5850 7150 5950
+Wire Wire Line
+	7150 5950 7600 5950
+$Comp
+L mx1a-simple:MX1A S43
+U 1 1 60303B36
+P 8150 5900
+F 0 "S43" V 7800 6150 60  0000 R CNN
+F 1 "N" H 8300 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8150 5900 50  0001 C CNN
+F 3 "" H 8150 5900 50  0001 C CNN
+	1    8150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 60303B3C
+P 8150 5850
+F 0 "D37" H 8150 6000 50  0000 C CNN
+F 1 "1N4148" H 8300 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 5850 50  0001 C CNN
+F 3 "~" H 8150 5850 50  0001 C CNN
+	1    8150 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 5850 8350 5850
+Wire Wire Line
+	8350 5850 8350 5750
+Wire Wire Line
+	8000 5850 7950 5850
+Wire Wire Line
+	7950 5850 7950 5950
+Wire Wire Line
+	7950 5950 8400 5950
+$Comp
+L mx1a-simple:MX1A S48
+U 1 1 60303B47
+P 8950 5900
+F 0 "S48" V 8600 6150 60  0000 R CNN
+F 1 "M" H 9100 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 8950 5900 50  0001 C CNN
+F 3 "" H 8950 5900 50  0001 C CNN
+	1    8950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 60303B4D
+P 8950 5850
+F 0 "D42" H 8950 6000 50  0000 C CNN
+F 1 "1N4148" H 9100 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 5850 50  0001 C CNN
+F 3 "~" H 8950 5850 50  0001 C CNN
+	1    8950 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 5850 9150 5850
+Wire Wire Line
+	9150 5850 9150 5750
+Wire Wire Line
+	8800 5850 8750 5850
+Wire Wire Line
+	8750 5850 8750 5950
+Wire Wire Line
+	8750 5950 9200 5950
+$Comp
+L mx1a-simple:MX1A S52
+U 1 1 60303B58
+P 9750 5900
+F 0 "S52" V 9400 6150 60  0000 R CNN
+F 1 "," H 9900 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 9750 5900 50  0001 C CNN
+F 3 "" H 9750 5900 50  0001 C CNN
+	1    9750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 60303B5E
+P 9750 5850
+F 0 "D46" H 9750 6000 50  0000 C CNN
+F 1 "1N4148" H 9900 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 5850 50  0001 C CNN
+F 3 "~" H 9750 5850 50  0001 C CNN
+	1    9750 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 5850 9950 5850
+Wire Wire Line
+	9950 5850 9950 5750
+Wire Wire Line
+	9600 5850 9550 5850
+Wire Wire Line
+	9550 5850 9550 5950
+Wire Wire Line
+	9550 5950 10000 5950
+$Comp
+L mx1a-simple:MX1A S57
+U 1 1 60303B69
+P 10550 5900
+F 0 "S57" V 10200 6150 60  0000 R CNN
+F 1 "." H 10700 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 10550 5900 50  0001 C CNN
+F 3 "" H 10550 5900 50  0001 C CNN
+	1    10550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 60303B6F
+P 10550 5850
+F 0 "D50" H 10550 6000 50  0000 C CNN
+F 1 "1N4148" H 10700 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 5850 50  0001 C CNN
+F 3 "~" H 10550 5850 50  0001 C CNN
+	1    10550 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 5850 10750 5850
+Wire Wire Line
+	10750 5850 10750 5750
+Wire Wire Line
+	10400 5850 10350 5850
+Wire Wire Line
+	10350 5850 10350 5950
+Wire Wire Line
+	10350 5950 10800 5950
+$Comp
+L mx1a-simple:MX1A S63
+U 1 1 60303B7A
+P 11350 5900
+F 0 "S63" V 11000 6150 60  0000 R CNN
+F 1 "-" H 11500 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 11350 5900 50  0001 C CNN
+F 3 "" H 11350 5900 50  0001 C CNN
+	1    11350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 60303B80
+P 11350 5850
+F 0 "D55" H 11350 6000 50  0000 C CNN
+F 1 "1N4148" H 11500 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11350 5850 50  0001 C CNN
+F 3 "~" H 11350 5850 50  0001 C CNN
+	1    11350 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11500 5850 11550 5850
+Wire Wire Line
+	11550 5850 11550 5750
+Wire Wire Line
+	11200 5850 11150 5850
+Wire Wire Line
+	11150 5850 11150 5950
+Wire Wire Line
+	11150 5950 11600 5950
+$Comp
+L mx1a-simple:MX1A S68
+U 1 1 60303B8B
+P 12150 5900
+F 0 "S68" V 11800 6150 60  0000 R CNN
+F 1 "RSHIFT" H 12300 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.75u" H 12150 5900 50  0001 C CNN
+F 3 "" H 12150 5900 50  0001 C CNN
+	1    12150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 60303B91
+P 12150 5850
+F 0 "D60" H 12150 6000 50  0000 C CNN
+F 1 "1N4148" H 12300 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12150 5850 50  0001 C CNN
+F 3 "~" H 12150 5850 50  0001 C CNN
+	1    12150 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 5850 12350 5850
+Wire Wire Line
+	12350 5850 12350 5750
+Wire Wire Line
+	12000 5850 11950 5850
+Wire Wire Line
+	11950 5850 11950 5950
+Wire Wire Line
+	11950 5950 12400 5950
+$Comp
+L mx1a-simple:MX1A S77
+U 1 1 60303BAD
+P 13750 5900
+F 0 "S77" V 13400 6150 60  0000 R CNN
+F 1 "AR_UP" H 13900 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 13750 5900 50  0001 C CNN
+F 3 "" H 13750 5900 50  0001 C CNN
+	1    13750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 60303BB3
+P 13750 5850
+F 0 "D67" H 13750 6000 50  0000 C CNN
+F 1 "1N4148" H 13900 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 5850 50  0001 C CNN
+F 3 "~" H 13750 5850 50  0001 C CNN
+	1    13750 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13900 5850 13950 5850
+Wire Wire Line
+	13950 5850 13950 5750
+Wire Wire Line
+	13600 5850 13550 5850
+Wire Wire Line
+	13550 5850 13550 5950
+Wire Wire Line
+	13550 5950 14000 5950
+$Comp
+L mx1a-simple:MX1A S82
+U 1 1 60303BBE
+P 14550 5900
+F 0 "S82" V 14200 6150 60  0000 R CNN
+F 1 "FUNC" H 14700 6250 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 14550 5900 50  0001 C CNN
+F 3 "" H 14550 5900 50  0001 C CNN
+	1    14550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D72
+U 1 1 60303BC4
+P 14550 5850
+F 0 "D72" H 14550 6000 50  0000 C CNN
+F 1 "1N4148" H 14700 5800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14550 5850 50  0001 C CNN
+F 3 "~" H 14550 5850 50  0001 C CNN
+	1    14550 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14700 5850 14750 5850
+Wire Wire Line
+	14750 5850 14750 5750
+Wire Wire Line
+	14400 5850 14350 5850
+Wire Wire Line
+	14350 5850 14350 5950
+Wire Wire Line
+	14350 5950 14800 5950
+Wire Wire Line
+	1550 5400 2350 5400
+Wire Wire Line
+	2350 5400 2350 5450
+Wire Wire Line
+	2350 5400 3150 5400
+Wire Wire Line
+	3150 5400 3150 5500
+Connection ~ 2350 5400
+Wire Wire Line
+	3150 5400 3950 5400
+Wire Wire Line
+	3950 5400 3950 5500
+Connection ~ 3150 5400
+Wire Wire Line
+	3950 5400 4750 5400
+Wire Wire Line
+	4750 5400 4750 5500
+Connection ~ 3950 5400
+Wire Wire Line
+	4750 5400 5550 5400
+Wire Wire Line
+	5550 5400 5550 5500
+Connection ~ 4750 5400
+Wire Wire Line
+	5550 5400 6350 5400
+Wire Wire Line
+	6350 5400 6350 5500
+Connection ~ 5550 5400
+Wire Wire Line
+	6350 5400 7150 5400
+Wire Wire Line
+	7150 5400 7150 5500
+Connection ~ 6350 5400
+Wire Wire Line
+	7150 5400 7950 5400
+Wire Wire Line
+	7950 5400 7950 5500
+Connection ~ 7150 5400
+Wire Wire Line
+	7950 5400 8750 5400
+Wire Wire Line
+	8750 5400 8750 5500
+Connection ~ 7950 5400
+Wire Wire Line
+	8750 5400 9550 5400
+Wire Wire Line
+	9550 5400 9550 5500
+Connection ~ 8750 5400
+Wire Wire Line
+	9550 5400 10350 5400
+Wire Wire Line
+	10350 5400 10350 5500
+Connection ~ 9550 5400
+Wire Wire Line
+	10350 5400 11150 5400
+Wire Wire Line
+	11150 5400 11150 5500
+Connection ~ 10350 5400
+Wire Wire Line
+	11150 5400 11950 5400
+Wire Wire Line
+	11950 5400 11950 5500
+Connection ~ 11150 5400
+Connection ~ 11950 5400
+Wire Wire Line
+	13550 5400 13550 5500
+Wire Wire Line
+	13550 5400 14350 5400
+Wire Wire Line
+	14350 5400 14350 5500
+Connection ~ 13550 5400
+$Comp
+L mx1a-simple:MX1A S2
+U 1 1 60303BFE
+P 2500 6000
+F 0 "S2" V 2150 6250 60  0000 R CNN
+F 1 "LSHIFT_ansi" H 2600 6100 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_2.25u" H 2500 6000 50  0001 C CNN
+F 3 "" H 2500 6000 50  0001 C CNN
+	1    2500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5600 2300 5450
+Wire Wire Line
+	2300 5450 2350 5450
+Connection ~ 2350 5450
+Wire Wire Line
+	2350 5450 2350 5500
+Wire Wire Line
+	2750 5750 2750 5850
+Wire Wire Line
+	2700 5850 2750 5850
+Connection ~ 2750 5850
+Wire Wire Line
+	2750 5850 2750 6050
+$Comp
+L mx1a-simple:MX1A S7
+U 1 1 60398305
+P 2550 6850
+F 0 "S7" V 2200 7100 60  0000 R CNN
+F 1 "MOD1" H 2700 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 2550 6850 50  0001 C CNN
+F 3 "" H 2550 6850 50  0001 C CNN
+	1    2550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 6039830B
+P 2550 6800
+F 0 "D5" H 2550 6950 50  0000 C CNN
+F 1 "1N4148" H 2700 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2550 6800 50  0001 C CNN
+F 3 "~" H 2550 6800 50  0001 C CNN
+	1    2550 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 6800 2750 6800
+Wire Wire Line
+	2750 6800 2750 6700
+Wire Wire Line
+	2400 6800 2350 6800
+Wire Wire Line
+	2350 6800 2350 6900
+Wire Wire Line
+	2350 6900 2800 6900
+$Comp
+L mx1a-simple:MX1A S12
+U 1 1 60398316
+P 3350 6850
+F 0 "S12" V 3000 7100 60  0000 R CNN
+F 1 "MOD2" H 3500 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 3350 6850 50  0001 C CNN
+F 3 "" H 3350 6850 50  0001 C CNN
+	1    3350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 6039831C
+P 3350 6800
+F 0 "D10" H 3350 6950 50  0000 C CNN
+F 1 "1N4148" H 3500 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 6800 50  0001 C CNN
+F 3 "~" H 3350 6800 50  0001 C CNN
+	1    3350 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 6800 3550 6800
+Wire Wire Line
+	3550 6800 3550 6700
+Wire Wire Line
+	3200 6800 3150 6800
+Wire Wire Line
+	3150 6800 3150 6900
+Wire Wire Line
+	3150 6900 3600 6900
+$Comp
+L mx1a-simple:MX1A S17
+U 1 1 60398327
+P 4150 6850
+F 0 "S17" V 3800 7100 60  0000 R CNN
+F 1 "MOD3" H 4300 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 4150 6850 50  0001 C CNN
+F 3 "" H 4150 6850 50  0001 C CNN
+	1    4150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 6039832D
+P 4150 6800
+F 0 "D15" H 4150 6950 50  0000 C CNN
+F 1 "1N4148" H 4300 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 6800 50  0001 C CNN
+F 3 "~" H 4150 6800 50  0001 C CNN
+	1    4150 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 6800 4350 6800
+Wire Wire Line
+	4350 6800 4350 6700
+Wire Wire Line
+	4000 6800 3950 6800
+Wire Wire Line
+	3950 6800 3950 6900
+Wire Wire Line
+	3950 6900 4400 6900
+$Comp
+L mx1a-simple:MX1A S58
+U 1 1 603983AF
+P 10550 6850
+F 0 "S58" V 10200 7100 60  0000 R CNN
+F 1 "MOD4" H 10700 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 10550 6850 50  0001 C CNN
+F 3 "" H 10550 6850 50  0001 C CNN
+	1    10550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx1a-simple:MX1A S64
+U 1 1 603983C0
+P 11350 6850
+F 0 "S64" V 11000 7100 60  0000 R CNN
+F 1 "MOD5" H 11500 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 11350 6850 50  0001 C CNN
+F 3 "" H 11350 6850 50  0001 C CNN
+	1    11350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 603983C6
+P 11350 6950
+F 0 "D56" H 11350 7100 50  0000 C CNN
+F 1 "1N4148" H 11500 6900 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11350 6950 50  0001 C CNN
+F 3 "~" H 11350 6950 50  0001 C CNN
+	1    11350 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11500 6950 11550 6950
+Wire Wire Line
+	11200 6950 11150 6950
+Wire Wire Line
+	11150 6950 11150 7050
+Wire Wire Line
+	11150 7050 11600 7050
+$Comp
+L mx1a-simple:MX1A S69
+U 1 1 603983D1
+P 12150 6850
+F 0 "S69" V 11800 7100 60  0000 R CNN
+F 1 "MOD6" H 12300 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 12150 6850 50  0001 C CNN
+F 3 "" H 12150 6850 50  0001 C CNN
+	1    12150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 603983D7
+P 12150 6800
+F 0 "D61" H 12150 6950 50  0000 C CNN
+F 1 "1N4148" H 12300 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12150 6800 50  0001 C CNN
+F 3 "~" H 12150 6800 50  0001 C CNN
+	1    12150 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 6800 12350 6800
+Wire Wire Line
+	12350 6800 12350 6700
+Wire Wire Line
+	12000 6800 11950 6800
+Wire Wire Line
+	11950 6800 11950 6900
+Wire Wire Line
+	11950 6900 12400 6900
+$Comp
+L mx1a-simple:MX1A S71
+U 1 1 603983E2
+P 12950 6850
+F 0 "S71" V 12600 7100 60  0000 R CNN
+F 1 "AR_L" H 13100 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 12950 6850 50  0001 C CNN
+F 3 "" H 12950 6850 50  0001 C CNN
+	1    12950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 603983E8
+P 12950 6800
+F 0 "D63" H 12950 6950 50  0000 C CNN
+F 1 "1N4148" H 13100 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12950 6800 50  0001 C CNN
+F 3 "~" H 12950 6800 50  0001 C CNN
+	1    12950 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13100 6800 13150 6800
+Wire Wire Line
+	13150 6800 13150 6700
+Wire Wire Line
+	12800 6800 12750 6800
+Wire Wire Line
+	12750 6800 12750 6900
+Wire Wire Line
+	12750 6900 13200 6900
+$Comp
+L mx1a-simple:MX1A S78
+U 1 1 603983F3
+P 13750 6850
+F 0 "S78" V 13400 7100 60  0000 R CNN
+F 1 "AR_DN" H 13900 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 13750 6850 50  0001 C CNN
+F 3 "" H 13750 6850 50  0001 C CNN
+	1    13750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 603983F9
+P 13750 6800
+F 0 "D68" H 13750 6950 50  0000 C CNN
+F 1 "1N4148" H 13900 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13750 6800 50  0001 C CNN
+F 3 "~" H 13750 6800 50  0001 C CNN
+	1    13750 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13900 6800 13950 6800
+Wire Wire Line
+	13950 6800 13950 6700
+Wire Wire Line
+	13600 6800 13550 6800
+Wire Wire Line
+	13550 6800 13550 6900
+Wire Wire Line
+	13550 6900 14000 6900
+$Comp
+L mx1a-simple:MX1A S83
+U 1 1 60398404
+P 14550 6850
+F 0 "S83" V 14200 7100 60  0000 R CNN
+F 1 "AR_R" H 14700 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1u" H 14550 6850 50  0001 C CNN
+F 3 "" H 14550 6850 50  0001 C CNN
+	1    14550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D73
+U 1 1 6039840A
+P 14550 6800
+F 0 "D73" H 14550 6950 50  0000 C CNN
+F 1 "1N4148" H 14700 6750 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14550 6800 50  0001 C CNN
+F 3 "~" H 14550 6800 50  0001 C CNN
+	1    14550 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14700 6800 14750 6800
+Wire Wire Line
+	14750 6800 14750 6700
+Wire Wire Line
+	14400 6800 14350 6800
+Wire Wire Line
+	14350 6800 14350 6900
+Wire Wire Line
+	14350 6900 14800 6900
+Wire Wire Line
+	1550 6350 2350 6350
+Wire Wire Line
+	2350 6350 2350 6450
+Wire Wire Line
+	2350 6350 3150 6350
+Wire Wire Line
+	3150 6350 3150 6450
+Connection ~ 2350 6350
+Wire Wire Line
+	3150 6350 3950 6350
+Wire Wire Line
+	3950 6350 3950 6450
+Connection ~ 3150 6350
+Connection ~ 3950 6350
+Wire Wire Line
+	10350 6350 10350 6400
+Wire Wire Line
+	10350 6350 11150 6350
+Wire Wire Line
+	11150 6350 11150 6400
+Connection ~ 10350 6350
+Wire Wire Line
+	11150 6350 11950 6350
+Wire Wire Line
+	11950 6350 11950 6450
+Connection ~ 11150 6350
+Wire Wire Line
+	11950 6350 12750 6350
+Wire Wire Line
+	12750 6350 12750 6450
+Connection ~ 11950 6350
+Wire Wire Line
+	12750 6350 13550 6350
+Wire Wire Line
+	13550 6350 13550 6450
+Connection ~ 12750 6350
+Wire Wire Line
+	13550 6350 14350 6350
+Wire Wire Line
+	14350 6350 14350 6450
+Connection ~ 13550 6350
+Wire Wire Line
+	2800 2350 2800 3300
+Wire Wire Line
+	2800 3300 2800 4150
+Connection ~ 2800 3300
+Wire Wire Line
+	2800 5200 2800 4150
+Connection ~ 2800 4150
+Wire Wire Line
+	2800 6150 2800 5200
+Connection ~ 2800 5200
+Wire Wire Line
+	2800 6900 2800 6150
+Connection ~ 2800 6150
+Wire Wire Line
+	2800 7200 2800 6900
+Connection ~ 2800 6900
+Wire Wire Line
+	3600 7200 3600 6900
+Wire Wire Line
+	3600 6900 3600 5950
+Connection ~ 3600 6900
+Wire Wire Line
+	3600 5950 3600 5000
+Connection ~ 3600 5950
+Wire Wire Line
+	3600 5000 3600 4150
+Connection ~ 3600 5000
+Wire Wire Line
+	3600 4150 3600 3300
+Connection ~ 3600 4150
+Wire Wire Line
+	3600 3300 3600 2350
+Connection ~ 3600 3300
+Wire Wire Line
+	4400 2350 4400 3300
+Wire Wire Line
+	4400 3300 4400 4150
+Connection ~ 4400 3300
+Wire Wire Line
+	4400 4150 4400 5000
+Connection ~ 4400 4150
+Wire Wire Line
+	4400 5950 4400 5000
+Connection ~ 4400 5000
+Wire Wire Line
+	4400 7200 4400 6900
+Wire Wire Line
+	4400 6900 4400 5950
+Connection ~ 4400 6900
+Connection ~ 4400 5950
+Wire Wire Line
+	5200 5000 5200 5950
+Wire Wire Line
+	5200 5950 5200 7200
+Connection ~ 5200 5950
+Wire Wire Line
+	5200 4150 5200 5000
+Connection ~ 5200 5000
+Wire Wire Line
+	5200 3300 5200 4150
+Connection ~ 5200 4150
+Wire Wire Line
+	5200 2350 5200 3300
+Connection ~ 5200 3300
+Wire Wire Line
+	6000 2350 6000 3300
+Wire Wire Line
+	6000 4150 6000 3300
+Connection ~ 6000 3300
+Wire Wire Line
+	6000 5000 6000 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	6000 5950 6000 5000
+Connection ~ 6000 5000
+Connection ~ 6000 5950
+Wire Wire Line
+	6800 5000 6800 5950
+Connection ~ 6800 5950
+Wire Wire Line
+	6800 4150 6800 5000
+Connection ~ 6800 5000
+Wire Wire Line
+	6800 3300 6800 4150
+Connection ~ 6800 4150
+Wire Wire Line
+	6800 2350 6800 3300
+Connection ~ 6800 3300
+Wire Wire Line
+	7600 2350 7600 3300
+Connection ~ 7600 3300
+Connection ~ 7600 4150
+Wire Wire Line
+	7600 4150 7600 3300
+Wire Wire Line
+	7600 4150 7600 5000
+Wire Wire Line
+	7600 5950 7600 5000
+Connection ~ 7600 5000
+Connection ~ 7600 5950
+Wire Wire Line
+	8400 5000 8400 5950
+Connection ~ 8400 5950
+Wire Wire Line
+	8400 4150 8400 5000
+Connection ~ 8400 5000
+Wire Wire Line
+	8400 3300 8400 4150
+Connection ~ 8400 4150
+Wire Wire Line
+	8400 2350 8400 3300
+Connection ~ 8400 3300
+Wire Wire Line
+	9200 2350 9200 3300
+Wire Wire Line
+	9200 4150 9200 3300
+Connection ~ 9200 3300
+Wire Wire Line
+	9200 5000 9200 4150
+Connection ~ 9200 4150
+Wire Wire Line
+	9200 5950 9200 5000
+Connection ~ 9200 5000
+Wire Wire Line
+	9200 5950 9200 7200
+Connection ~ 9200 5950
+Wire Wire Line
+	10000 5950 10000 7200
+Wire Wire Line
+	10000 5000 10000 5950
+Connection ~ 10000 5950
+Wire Wire Line
+	10000 4150 10000 5000
+Connection ~ 10000 5000
+Wire Wire Line
+	10000 3300 10000 4150
+Connection ~ 10000 4150
+Wire Wire Line
+	10000 2350 10000 3300
+Connection ~ 10000 3300
+Wire Wire Line
+	10800 3300 10800 2350
+Connection ~ 10800 3300
+Wire Wire Line
+	10800 3300 10800 4150
+Connection ~ 10800 4150
+Wire Wire Line
+	10800 4150 10800 5000
+Connection ~ 10800 5000
+Wire Wire Line
+	10800 5000 10800 5950
+Connection ~ 10800 5950
+Wire Wire Line
+	11600 7200 11600 7050
+Wire Wire Line
+	11600 5000 11600 5950
+Connection ~ 11600 5950
+Wire Wire Line
+	11600 4150 11600 5000
+Connection ~ 11600 5000
+Wire Wire Line
+	11600 3300 11600 4150
+Connection ~ 11600 4150
+Wire Wire Line
+	11600 3300 11600 2350
+Connection ~ 11600 3300
+Wire Wire Line
+	12400 3300 12400 2350
+Wire Wire Line
+	12400 4150 12400 3300
+Connection ~ 12400 3300
+Wire Wire Line
+	12400 5000 12400 4150
+Connection ~ 12400 4150
+Wire Wire Line
+	12400 5950 12400 5000
+Connection ~ 12400 5000
+Wire Wire Line
+	12400 6900 12400 5950
+Connection ~ 12400 5950
+Wire Wire Line
+	12400 7200 12400 6900
+Connection ~ 12400 6900
+Wire Wire Line
+	13200 7200 13200 6900
+Connection ~ 13200 6900
+Wire Wire Line
+	13200 3300 13200 2350
+Connection ~ 13200 3300
+Wire Wire Line
+	14000 4150 14000 3450
+Connection ~ 14000 4150
+Wire Wire Line
+	14000 5950 14000 5200
+Wire Wire Line
+	14000 6900 14000 5950
+Connection ~ 14000 5950
+Wire Wire Line
+	14000 7200 14000 6900
+Connection ~ 14000 6900
+Wire Wire Line
+	14800 7200 14800 6900
+Wire Wire Line
+	14800 6900 14800 5950
+Connection ~ 14800 6900
+Wire Wire Line
+	14800 5950 14800 5000
+Connection ~ 14800 5950
+Wire Wire Line
+	14800 5000 14800 4150
+Connection ~ 14800 5000
+Wire Wire Line
+	14800 4150 14800 3300
+Connection ~ 14800 4150
+Wire Wire Line
+	14800 3300 14800 2350
+Connection ~ 14800 3300
+Text HLabel 1550 2750 0    50   Input ~ 0
+Row1
+Text HLabel 1550 3600 0    50   Input ~ 0
+Row2
+Text HLabel 1550 4450 0    50   Input ~ 0
+Row3
+Text HLabel 1550 5400 0    50   Input ~ 0
+Row4
+Text HLabel 1550 6350 0    50   Input ~ 0
+Row5
+Text HLabel 2800 2350 1    50   Input ~ 0
+Col1
+Text HLabel 3600 2350 1    50   Input ~ 0
+Col2
+Text HLabel 4400 2350 1    50   Input ~ 0
+Col3
+Text HLabel 5200 2350 1    50   Input ~ 0
+Col4
+Text HLabel 6000 2350 1    50   Input ~ 0
+Col5
+Text HLabel 6800 2350 1    50   Input ~ 0
+Col6
+Text HLabel 7600 2350 1    50   Input ~ 0
+Col7
+Text HLabel 8400 2350 1    50   Input ~ 0
+Col8
+Text HLabel 9200 2350 1    50   Input ~ 0
+Col9
+Text HLabel 10000 2350 1    50   Input ~ 0
+Col10
+Text HLabel 10800 2350 1    50   Input ~ 0
+Col11
+Text HLabel 11600 2350 1    50   Input ~ 0
+Col12
+Text HLabel 12400 2350 1    50   Input ~ 0
+Col13
+Text HLabel 13200 2350 1    50   Input ~ 0
+Col14
+Text HLabel 14000 2350 1    50   Input ~ 0
+Col15
+Text HLabel 14800 2350 1    50   Input ~ 0
+Col16
+Connection ~ 7150 6350
+Wire Wire Line
+	6000 5950 6000 7200
+Wire Wire Line
+	10800 7200 10800 7050
+Wire Wire Line
+	10350 7050 10800 7050
+Wire Wire Line
+	10350 6950 10350 7050
+Wire Wire Line
+	10400 6950 10350 6950
+Wire Wire Line
+	10700 6950 10750 6950
+$Comp
+L Device:D D51
+U 1 1 603983B5
+P 10550 6950
+F 0 "D51" H 10550 7100 50  0000 C CNN
+F 1 "1N4148" H 10700 6900 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 6950 50  0001 C CNN
+F 3 "~" H 10550 6950 50  0001 C CNN
+	1    10550 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 6950 7600 6950
+Wire Wire Line
+	7150 6850 7150 6950
+Wire Wire Line
+	7200 6850 7150 6850
+Wire Wire Line
+	7500 6850 7550 6850
+$Comp
+L Device:D D33
+U 1 1 60398360
+P 7350 6850
+F 0 "D33" H 7350 7000 50  0000 C CNN
+F 1 "1N4148" H 7500 6800 30  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 6850 50  0001 C CNN
+F 3 "~" H 7350 6850 50  0001 C CNN
+	1    7350 6850
+	-1   0    0    1   
+$EndComp
+Connection ~ 10800 7050
+Wire Wire Line
+	10800 5950 10800 7050
+$Comp
+L mx1a-simple:MX1A S53
+U 1 1 6068DFAE
+P 10500 6950
+F 0 "S53" V 10150 7200 60  0000 R CNN
+F 1 "MOD4_1.25" H 10650 7300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 10500 6950 50  0001 C CNN
+F 3 "" H 10500 6950 50  0001 C CNN
+	1    10500 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 7050
+Wire Wire Line
+	11600 5950 11600 7050
+$Comp
+L mx1a-simple:MX1A S59
+U 1 1 606F834F
+P 11300 6950
+F 0 "S59" V 10950 7200 60  0000 R CNN
+F 1 "MOD5_1.25" H 11450 7300 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_1.25u" H 11300 6950 50  0001 C CNN
+F 3 "" H 11300 6950 50  0001 C CNN
+	1    11300 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6550 10300 6400
+Wire Wire Line
+	10300 6400 10350 6400
+Connection ~ 10350 6400
+Wire Wire Line
+	10350 6400 10350 6450
+Wire Wire Line
+	11100 6550 11100 6400
+Wire Wire Line
+	11100 6400 11150 6400
+Connection ~ 11150 6400
+Wire Wire Line
+	11150 6400 11150 6450
+Wire Wire Line
+	11550 6700 11550 6800
+Wire Wire Line
+	11500 6800 11550 6800
+Connection ~ 11550 6800
+Wire Wire Line
+	11550 6800 11550 6950
+Wire Wire Line
+	10750 6700 10750 6800
+Wire Wire Line
+	10700 6800 10750 6800
+Connection ~ 10750 6800
+Wire Wire Line
+	10750 6800 10750 6950
+Connection ~ 14000 3450
+Wire Wire Line
+	14000 2350 14000 3450
+$Comp
+L mx1a-simple:MX1A S72
+U 1 1 609F26D8
+P 13700 3350
+F 0 "S72" V 13350 3600 60  0000 R CNN
+F 1 "BKSP" H 13850 3700 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_2u" H 13700 3350 50  0001 C CNN
+F 3 "" H 13700 3350 50  0001 C CNN
+	1    13700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 3100 13950 3200
+Wire Wire Line
+	13900 3200 13950 3200
+Connection ~ 13950 3200
+Wire Wire Line
+	13950 3200 13950 3350
+Wire Wire Line
+	13500 2950 13500 2800
+Wire Wire Line
+	13500 2800 13550 2800
+Connection ~ 13550 2800
+Wire Wire Line
+	13550 2800 13550 2850
+Wire Wire Line
+	11950 3600 13550 3600
+Wire Wire Line
+	11950 4450 13550 4450
+Connection ~ 14000 5200
+Wire Wire Line
+	14000 4150 14000 5200
+$Comp
+L mx1a-simple:MX1A S73
+U 1 1 60C78251
+P 13700 5050
+F 0 "S73" V 13350 5300 60  0000 R CNN
+F 1 "ENTER_ansi" H 13850 5400 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_2.25u" H 13700 5050 50  0001 C CNN
+F 3 "" H 13700 5050 50  0001 C CNN
+	1    13700 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 4800 13950 4900
+Wire Wire Line
+	13900 4900 13950 4900
+Connection ~ 13950 4900
+Wire Wire Line
+	13950 4900 13950 5100
+Wire Wire Line
+	13500 4650 13500 4500
+Wire Wire Line
+	13500 4500 13550 4500
+Connection ~ 13550 4500
+Wire Wire Line
+	13550 4500 13550 4550
+Connection ~ 7600 6950
+Wire Wire Line
+	7600 6950 7600 7200
+Wire Wire Line
+	7600 5950 7600 6950
+Wire Wire Line
+	13200 3300 13200 6900
+Wire Wire Line
+	11950 5400 13550 5400
+Wire Wire Line
+	6800 5950 6800 7200
+Wire Wire Line
+	3950 6350 7150 6350
+Wire Wire Line
+	8400 5950 8400 7200
+Wire Wire Line
+	7150 6350 10350 6350
+$Comp
+L mx1a-simple:MX1A S38
+U 1 1 6039835A
+P 7350 6850
+F 0 "S38" V 7000 7100 60  0000 R CNN
+F 1 "SPACE_6.25" H 7500 7200 60  0000 R CNN
+F 2 "keyswitches:Kailh_socket_only_MX_6.25u" H 7350 6850 50  0001 C CNN
+F 3 "" H 7350 6850 50  0001 C CNN
+	1    7350 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6350 7150 6450
+Wire Wire Line
+	7550 6700 7550 6850
+$EndSCHEMATC
