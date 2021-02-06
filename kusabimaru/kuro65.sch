@@ -869,4 +869,25 @@ Wire Wire Line
 	1900 1050 1950 1050
 Wire Wire Line
 	1950 1050 1950 1000
+$Comp
+L Device:C_Small C9
+U 1 1 602AC3E9
+P 2550 4300
+F 0 "C9" H 2642 4346 50  0000 L CNN
+F 1 "100n" H 2642 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2550 4300 50  0001 C CNN
+F 3 "~" H 2550 4300 50  0001 C CNN
+	1    2550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4050 2550 4050
+Wire Wire Line
+	2550 4050 2550 4200
+Connection ~ 2200 4050
+Wire Wire Line
+	2200 4500 2550 4500
+Wire Wire Line
+	2550 4500 2550 4400
+Connection ~ 2200 4500
 $EndSCHEMATC

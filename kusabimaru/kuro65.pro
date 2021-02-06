@@ -1,4 +1,4 @@
-update=31.01.2021 09:07:36
+update=06.02.2021 16:23:22
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=THS65.net
+LastNetListRead=kuro65.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -233,7 +233,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
