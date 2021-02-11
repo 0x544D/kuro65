@@ -10,3 +10,8 @@ Drawing: https://gct.co/files/drawings/usb4085.pdf
 Crystal:
 TSX-3225 16.0000MF18X-AC0
 https://www.digikey.de/product-detail/de/epson/TSX-3225-16-0000MF18X-AC0/SER4070CT-ND/5413939
+
+
+Switch:
+Omron B3FS-1000
+https://de.farnell.com/omron/b3fs-1000/taster-0-05a-24v-dc-beleuchtet/dp/3121161?st=omron%20b3fs
