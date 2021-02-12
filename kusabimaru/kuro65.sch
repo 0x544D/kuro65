@@ -528,15 +528,15 @@ F20 "Col14" I L 7850 3900 50
 F21 "Col15" I L 7850 4000 50 
 F22 "Col16" I L 7850 4100 50 
 $EndSheet
-Text GLabel 5700 4650 2    50   Input ~ 0
+Text GLabel 5700 4250 2    50   Input ~ 0
 Row1
-Text GLabel 5700 4550 2    50   Input ~ 0
+Text GLabel 5700 4350 2    50   Input ~ 0
 Row2
 Text GLabel 5700 4450 2    50   Input ~ 0
 Row3
-Text GLabel 5700 4350 2    50   Input ~ 0
+Text GLabel 5700 4550 2    50   Input ~ 0
 Row4
-Text GLabel 5700 4250 2    50   Input ~ 0
+Text GLabel 5700 4650 2    50   Input ~ 0
 Row5
 Wire Wire Line
 	5600 4250 5700 4250
@@ -568,37 +568,37 @@ Wire Wire Line
 	7850 2100 7750 2100
 Wire Wire Line
 	7850 2000 7750 2000
-Text GLabel 5700 4150 2    50   Input ~ 0
+Text GLabel 5700 2450 2    50   Input ~ 0
 Col1
-Text GLabel 5700 3650 2    50   Input ~ 0
+Text GLabel 5700 1750 2    50   Input ~ 0
 Col2
-Text GLabel 5700 3550 2    50   Input ~ 0
+Text GLabel 5700 3650 2    50   Input ~ 0
 Col3
-Text GLabel 5700 3450 2    50   Input ~ 0
+Text GLabel 5700 3550 2    50   Input ~ 0
 Col4
-Text GLabel 5700 3350 2    50   Input ~ 0
+Text GLabel 5700 3450 2    50   Input ~ 0
 Col5
-Text GLabel 5700 3250 2    50   Input ~ 0
+Text GLabel 5700 3350 2    50   Input ~ 0
 Col6
 Text GLabel 5700 3150 2    50   Input ~ 0
 Col7
-Text GLabel 5700 3050 2    50   Input ~ 0
+Text GLabel 5700 3250 2    50   Input ~ 0
 Col8
-Text GLabel 5700 2950 2    50   Input ~ 0
+Text GLabel 5700 3050 2    50   Input ~ 0
 Col9
-Text GLabel 5700 2750 2    50   Input ~ 0
+Text GLabel 5700 2950 2    50   Input ~ 0
 Col10
-Text GLabel 5700 2650 2    50   Input ~ 0
-Col11
-Text GLabel 5700 2450 2    50   Input ~ 0
-Col12
 Text GLabel 5700 2050 2    50   Input ~ 0
-Col13
+Col11
 Text GLabel 5700 1950 2    50   Input ~ 0
-Col14
+Col12
 Text GLabel 5700 1850 2    50   Input ~ 0
+Col13
+Text GLabel 5700 2750 2    50   Input ~ 0
+Col14
+Text GLabel 5700 2650 2    50   Input ~ 0
 Col15
-Text GLabel 5700 1750 2    50   Input ~ 0
+Text GLabel 5700 4150 2    50   Input ~ 0
 Col16
 Wire Wire Line
 	5600 1750 5700 1750
