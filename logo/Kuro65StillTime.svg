@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="27.174644mm"
+   height="41.843475mm"
+   viewBox="0 0 27.174645 41.843476"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Kuro65StillTime.svg"
+   inkscape:export-filename="C:\Users\Tobi\Documents\GitHub\kuro65\logo\Kuro65StillTime.png"
+   inkscape:export-xdpi="999.75165"
+   inkscape:export-ydpi="999.75165">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.2556073"
+     inkscape:cx="63.116442"
+     inkscape:cy="71.012029"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g18"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2557"
+     inkscape:window-height="1368"
+     inkscape:window-x="1271"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.963244,-88.657512)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Cambria;-inkscape-font-specification:Cambria;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="17.528646"
+       y="21.828125"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="17.528646"
+         y="21.828125"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cambria;-inkscape-font-specification:Cambria;stroke-width:0.264583" /></text>
+    <g
+       id="g52">
+      <g
+         id="g18">
+        <g
+           id="g23">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.4028px;line-height:1.25;font-family:'Still Time';-inkscape-font-specification:'Still Time';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="12.187482"
+             y="102.58872"
+             id="text12"><tspan
+               sodipodi:role="line"
+               x="12.187482"
+               y="102.58872"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.4028px;font-family:'Still Time';-inkscape-font-specification:'Still Time';stroke-width:0.264583"
+               id="tspan14">Kuro</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.1056px;line-height:1.25;font-family:SERPENTINE;-inkscape-font-specification:SERPENTINE;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+             x="9.8225851"
+             y="125.46261"
+             id="text24"><tspan
+               sodipodi:role="line"
+               id="tspan22"
+               x="9.8225851"
+               y="125.46261"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.1056px;font-family:'Still Time';-inkscape-font-specification:'Still Time';stroke-width:0.264583">65</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
