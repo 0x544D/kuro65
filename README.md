@@ -19,6 +19,6 @@ The hot-swappable ISO mechanical keyboard PCB
 | 1   | USB4085-GF-A    | USB-C         | [Datasheet](https://gct.co/de/connector/usb4085)                                                                 | [Link](https://de.farnell.com/gct-global-connector-technology/usb4085-gf-a/usb-buchse-2-0-typ-c-16pos/dp/2924867?st=usb%20c)|
 | 1   | TSX3225 - 16MHz | SMD 3,2x2,5mm | [Datasheet](https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en)                            | [Link](https://de.farnell.com/epson/x1e0000210013-tsx-3225-16-mhz-9-0pf/quarz-tsx-3225-16mhz-9pf/dp/1712841?st=tsx3225)     |
 
-# Contribuitors and Acknowledgements
-Keyswitches based on:[daprice](https://github.com/daprice/keyswitches.pretty)
-Stabilizers used: [perigoso](https://github.com/perigoso/Switch_Keyboard)
+# Contributors and Acknowledgements
+- Keyswitches based on: [daprice](https://github.com/daprice/keyswitches.pretty)
+- Stabilizers used: [perigoso](https://github.com/perigoso/Switch_Keyboard)
