@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Kuro65"
+Date "2021-02-20"
+Rev "Kusabimaru"
+Comp "0x544D"
 Comment1 ""
 Comment2 ""
 Comment3 ""
