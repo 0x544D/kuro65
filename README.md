@@ -1,6 +1,14 @@
 # Kuro65
 The hot-swappable ISO mechanical keyboard PCB
 
+# Schematic
+Standard schematic for a QMK firmware compatible mechanical keyboard.
+
+Main schematic:
+![schematic_main](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_schematic_main.png?raw=true)
+Switch matrix schematic:
+![schematic_switches](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_schematic_switches.png?raw=true)
+
 # BOM
 
 | Qty | Component       | Footprint     | Datasheet | Shop URL                                                                                                                    |
@@ -25,6 +33,11 @@ Front side of PCB
 Back side with components of the PCB
 ![3d_back](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_back.jpg?raw=true)
 ![3d_diag](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_diag.jpg?raw=true)
+
+# Plate
+TODO:
+- generate plate via [swillkb](http://builder.swillkb.com/) by using the [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) output.
+- adapt plate for KBDfans case
 
 # Contributors and Acknowledgements
 - Keyswitches based on: [daprice](https://github.com/daprice/keyswitches.pretty)
