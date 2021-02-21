@@ -7,13 +7,14 @@ Features include:
 - Multi-layer support
 
 ### Table of contents
-[Schematic](#schematic)
-[Bill of Material](#bom)
-[Pictures](#pictures)
-[Plate](#plate)
+- [Schematic](#schematic)
+- [Bill of Material](#bom)
+- [Pictures](#pictures)
+- [Plate](#plate)
 
-<a name="schematic"/>
+
 # Schematic
+<a name="schematic"/>
 Standard schematic for a QMK firmware compatible mechanical keyboard.
 
 #### Main schematic:
@@ -21,8 +22,8 @@ Standard schematic for a QMK firmware compatible mechanical keyboard.
 #### Switch matrix schematic:
 ![schematic_switches](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_schematic_switches.png?raw=true)
 
-<a name="bom"/>
 # Bill of Material
+<a name="bom"/>
 
 | Qty | Component       | Footprint     | Datasheet | Shop URL                                                                                                                    |
 | --- | --------------- | ------------- | --------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -40,16 +41,16 @@ Standard schematic for a QMK firmware compatible mechanical keyboard.
 | 1   | USB4085-GF-A    | USB-C         | [Datasheet](https://gct.co/de/connector/usb4085)                                                                 | [Link](https://de.farnell.com/gct-global-connector-technology/usb4085-gf-a/usb-buchse-2-0-typ-c-16pos/dp/2924867?st=usb%20c)|
 | 1   | TSX3225 - 16MHz | SMD 3,2x2,5mm | [Datasheet](https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en)                            | [Link](https://de.farnell.com/epson/x1e0000210013-tsx-3225-16-mhz-9-0pf/quarz-tsx-3225-16mhz-9pf/dp/1712841?st=tsx3225)     |
 
-<a name="pictures"/>
 # Pictures
+<a name="pictures"/>
 Front side of PCB
 ![3d_front](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_front.jpg?raw=true)
 Back side with components of the PCB
 ![3d_back](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_back.jpg?raw=true)
 ![3d_diag](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_diag.jpg?raw=true)
 
-<a name="plate"/>
 # Plate
+<a name="plate"/>
 TODO:
 - generate plate via [swillkb](http://builder.swillkb.com/) by using the [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) output.
 - adapt plate for KBDfans case
