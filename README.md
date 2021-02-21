@@ -43,6 +43,7 @@ Standard schematic for a QMK firmware compatible mechanical keyboard.
 
 # Pictures
 <a name="pictures"/>
+
 Front side of PCB
 ![3d_front](https://github.com/0x544D/kuro65/blob/main/pictures/kusabimaru/kuro65_front.jpg?raw=true)
 Back side with components of the PCB
@@ -51,6 +52,7 @@ Back side with components of the PCB
 
 # Plate
 <a name="plate"/>
+
 TODO:
 - generate plate via [swillkb](http://builder.swillkb.com/) by using the [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/) output.
 - adapt plate for KBDfans case
