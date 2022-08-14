@@ -5147,16 +5147,16 @@
       (reference "S3") (unit 1) (value "ESC") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-00006015b937"
-      (reference "S4") (unit 1) (value "TAB") (footprint "keyswitches:Kailh_socket_only_MX_1.5u")
+      (reference "S4") (unit 1) (value "TAB") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.5u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-00006018cd21"
-      (reference "S5") (unit 1) (value "CAPS_1.75") (footprint "keyswitches:Kailh_socket_only_MX_1.75u")
+      (reference "S5") (unit 1) (value "CAPS_1.75") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.75u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060303ac0"
-      (reference "S6") (unit 1) (value "LSHIFT_iso") (footprint "keyswitches:Kailh_socket_only_MX_1.25u")
+      (reference "S6") (unit 1) (value "LSHIFT_iso") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.25u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060398305"
-      (reference "S7") (unit 1) (value "MOD1") (footprint "keyswitches:Kailh_socket_only_MX_1.25u")
+      (reference "S7") (unit 1) (value "MOD1") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.25u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-0000601408d7"
       (reference "S8") (unit 1) (value "1") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
@@ -5171,7 +5171,7 @@
       (reference "S11") (unit 1) (value "iso <") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060398316"
-      (reference "S12") (unit 1) (value "MOD2") (footprint "keyswitches:Kailh_socket_only_MX_1.25u")
+      (reference "S12") (unit 1) (value "MOD2") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.25u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-0000601418ab"
       (reference "S13") (unit 1) (value "2") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
@@ -5186,7 +5186,7 @@
       (reference "S16") (unit 1) (value "Y") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060398327"
-      (reference "S17") (unit 1) (value "MOD3") (footprint "keyswitches:Kailh_socket_only_MX_1.25u")
+      (reference "S17") (unit 1) (value "MOD3") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.25u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060142631"
       (reference "S18") (unit 1) (value "3") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
@@ -5237,7 +5237,7 @@
       (reference "S37") (unit 1) (value "B") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-00006039835a"
-      (reference "S38") (unit 1) (value "SPACE_6.25") (footprint "keyswitches:Kailh_socket_only_MX_6.25u")
+      (reference "S38") (unit 1) (value "SPACE_6.25") (footprint "keyswitches:Kailh_socket_only_MX_smd_6.25u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-00006014f16a"
       (reference "S40") (unit 1) (value "7") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
@@ -5315,7 +5315,7 @@
       (reference "S67") (unit 1) (value "iso #") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060303b8b"
-      (reference "S68") (unit 1) (value "RSHIFT") (footprint "keyswitches:Kailh_socket_only_MX_1.75u")
+      (reference "S68") (unit 1) (value "RSHIFT") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.75u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-0000603983d1"
       (reference "S69") (unit 1) (value "MOD6") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
@@ -5324,10 +5324,10 @@
       (reference "S71") (unit 1) (value "AR_L") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-0000609f26d8"
-      (reference "S72") (unit 1) (value "BKSP") (footprint "keyswitches:Kailh_socket_only_MX_2u")
+      (reference "S72") (unit 1) (value "BKSP") (footprint "keyswitches:Kailh_socket_only_MX_smd_2u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-00006018ce0f"
-      (reference "S76") (unit 1) (value "ENTER_iso") (footprint "keyswitches:Kailh_socket_only_MX_iso_enter")
+      (reference "S76") (unit 1) (value "ENTER_iso") (footprint "keyswitches:Kailh_socket_only_MX_smd_iso_enter")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060303bad"
       (reference "S77") (unit 1) (value "AR_UP") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
