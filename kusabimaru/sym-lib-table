@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name atmega32u4)(type Legacy)(uri ${KIPRJMOD}/../lib/atmega32u4.lib)(options "")(descr ""))
-  (lib (name mx1a-simple)(type Legacy)(uri ${KIPRJMOD}/../lib/mx1a-simple.lib)(options "")(descr ""))
+  (lib (name "atmega32u4")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/symbols/atmega32u4.kicad_sym")(options "")(descr ""))
+  (lib (name "mx1a-simple")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/symbols/mx1a-simple.kicad_sym")(options "")(descr ""))
+  (lib (name "tm_leds")(type "KiCad")(uri "C:/Users/Tobi/Gits/kuro65/kicad_libs/symbols/tm_leds.kicad_sym")(options "")(descr ""))
 )

@@ -408,8 +408,6 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "nets": [
-          "/DCON+",
-          "/DCON-",
           "D+",
           "D-"
         ],
