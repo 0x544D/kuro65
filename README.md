@@ -41,6 +41,15 @@ Standard schematic for a QMK firmware compatible mechanical keyboard.
 | 1   | USB4085-GF-A    | USB-C         | [Datasheet](https://gct.co/de/connector/usb4085)                                                                 | [Link](https://de.farnell.com/gct-global-connector-technology/usb4085-gf-a/usb-buchse-2-0-typ-c-16pos/dp/2924867?st=usb%20c)|
 | 1   | TSX3225 - 16MHz | SMD 3,2x2,5mm | [Datasheet](https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en)                            | [Link](https://de.farnell.com/epson/x1e0000210013-tsx-3225-16-mhz-9-0pf/quarz-tsx-3225-16mhz-9pf/dp/1712841?st=tsx3225)     |
 
+# BOM (JLCPCB)
+
+| Qty | Component       | Footprint      | JLC Part Number | Datasheet | Shop URL                                                                 |
+|-----|-----------------|----------------|-----------------|-----------|--------------------------------------------------------------------------|
+|  1  | ATMEGA32U4-MU   | QFN-44_7x7x05P | C112161         |[Datasheet](https://datasheet.lcsc.com/lcsc/1809032024_Microchip-Tech-ATMEGA32U4-MU_C112161.pdf) | [Link](https://jlcpcb.com/partdetail/MicrochipTech-ATMEGA32U4MU/C112161) |
+|  1  | X322516MLB4SI   | SMD3225-4P     | C13738          |[Datasheet](https://datasheet.lcsc.com/lcsc/2103291133_Yangxing-Tech-X322516MLB4SI_C13738.pdf) | [Link](https://jlcpcb.com/partdetail/YangxingTech-X322516MLB4SI/C13738) |
+|  1  | B3FS-1000P      | SMD,6x6x3.1mm  | C271750         |[Datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf) | [Link](https://jlcpcb.com/partdetail/OmronElectronics-B3FS1000P/C271750) |
+
+
 # Pictures
 <a name="pictures"/>
 
