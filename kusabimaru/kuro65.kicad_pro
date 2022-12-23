@@ -123,6 +123,7 @@
         0.0,
         0.15,
         0.2,
+        0.3,
         0.4,
         0.6,
         0.7,
@@ -136,6 +137,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         },
         {
           "diameter": 0.9,
@@ -392,6 +397,46 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "Matrix",
+        "nets": [
+          "Col1",
+          "Col10",
+          "Col11",
+          "Col12",
+          "Col13",
+          "Col14",
+          "Col15",
+          "Col16",
+          "Col2",
+          "Col3",
+          "Col4",
+          "Col5",
+          "Col6",
+          "Col7",
+          "Col8",
+          "Col9",
+          "Row1",
+          "Row2",
+          "Row3",
+          "Row4",
+          "Row5"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
           "VCC"
@@ -401,6 +446,24 @@
         "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SK6812",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
