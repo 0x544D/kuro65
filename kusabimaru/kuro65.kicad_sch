@@ -5280,7 +5280,7 @@
       (reference "S11") (unit 1) (value "iso <") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-000060398316"
-      (reference "S12") (unit 1) (value "MOD2") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.25u")
+      (reference "S12") (unit 1) (value "MOD2") (footprint "keyswitches:Kailh_socket_only_MX_smd_1.25u_clipped_pin")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-0000601418ab"
       (reference "S13") (unit 1) (value "2") (footprint "keyswitches:Kailh_socket_only_MX_smd_1u")

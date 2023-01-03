@@ -7219,7 +7219,7 @@
     (property "Value" "MOD2" (id 1) (at 69.215 213.36 0)
       (effects (font (size 1.524 1.524)) (justify right))
     )
-    (property "Footprint" "keyswitches:Kailh_socket_only_MX_smd_1.25u" (id 2) (at 65.405 222.25 0)
+    (property "Footprint" "keyswitches:Kailh_socket_only_MX_smd_1.25u_clipped_pin" (id 2) (at 65.405 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 65.405 222.25 0)
