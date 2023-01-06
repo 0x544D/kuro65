@@ -3914,7 +3914,7 @@
     (uuid daa0536b-64b4-4f6e-bae2-f87779b0ee44)
     (property "Reference" "D28" (id 0) (at 158.75 119.38 0))
     (property "Value" "PRTR5V0U2X" (id 1) (at 163.83 138.43 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (id 2) (at 156.464 128.27 0)
+    (property "Footprint" "random-keyboard-parts:SOT143B" (id 2) (at 156.464 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" (id 3) (at 156.464 128.27 0)
@@ -5123,7 +5123,7 @@
       (reference "D27") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/daa0536b-64b4-4f6e-bae2-f87779b0ee44"
-      (reference "D28") (unit 1) (value "PRTR5V0U2X") (footprint "Package_TO_SOT_SMD:SOT-143")
+      (reference "D28") (unit 1) (value "PRTR5V0U2X") (footprint "random-keyboard-parts:SOT143B")
     )
     (path "/00000000-0000-0000-0000-000060130ae4/00000000-0000-0000-0000-00006014f15f"
       (reference "D29") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")

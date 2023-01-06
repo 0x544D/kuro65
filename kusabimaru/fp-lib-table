@@ -4,6 +4,7 @@
   (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/footprints/logos.pretty")(options "")(descr ""))
   (lib (name "TM_leds")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/footprints/leds.pretty")(options "")(descr ""))
   (lib (name "TM_qfn")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/footprints/qfn.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "${KIPROJHOME}/kicad_libs/footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPROJHOME}/kicad_libs/footprints.pretty")(options "")(descr "")(disabled))
   (lib (name "Slots")(type "KiCad")(uri "${KIPROJHOME}/kicad_libs/footprints/Slots.pretty")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/footprints/random-keyboard-parts.pretty")(options "")(descr ""))
 )
