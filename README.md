@@ -1,10 +1,13 @@
 # Kuro65
+<img align="right" width="118" height="207" src="https://user-images.githubusercontent.com/28592326/219898869-d1d8c107-8534-48e9-9dfd-22592b35853f.png">
 The hot-swappable ISO mechanical keyboard PCB. 
 
 Features include:
 - QMK compatible
 - Hot-swappable MX sockets
+- 65% ISO DE layout
 - Multi-layer support
+
 
 ### Table of contents
 - [Schematic](#schematic)
