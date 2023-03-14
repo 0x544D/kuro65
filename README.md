@@ -6,6 +6,7 @@ Features include:
 - QMK compatible
 - Hot-swappable MX sockets
 - 65% ISO DE layout
+- Per-key RGB LED
 - Multi-layer support
 
 
